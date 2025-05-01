@@ -4,4 +4,10 @@ export interface StudentType {
     userId: string;
     learningPath: string;
 }
-    
+
+export interface UserType {
+    userId: string;
+    name: string;
+    email: string;
+    role: "admin" | "student";
+  }
