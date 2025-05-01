@@ -51,7 +51,7 @@ export default function Painel() {
                     Adicionar Aluno
                 </Button>
             </div>
-            <div className="w-full h-fit mt-8 rounded-md p-5 bg-[#190639]">
+            <div className="w-full h-fit mt-8 rounded-md p-5 bg-[#190639] overflow-x-auto">
                 <table className="w-full border-collapse p-10 bg-[#190639] rounded-md overflow-x-scroll">
                     <thead className="bg-transparent">
                         <tr className="border-b border-slate-700">
