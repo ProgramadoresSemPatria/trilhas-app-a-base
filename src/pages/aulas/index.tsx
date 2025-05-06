@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { trilhasData } from "../../constants/conteudos-aulas";
+import { learningPathsData } from "../../constants/conteudos-aulas";
 import { CircleArrowLeft } from "lucide-react";
 import Header from "../../components/header";
 import { useAuth } from "../../context/AuthContext";
@@ -11,7 +11,7 @@ export default function Aulas() {
 
     const { user } = useAuth()
     const { slug } = useParams();
-    const learningPath = trilhasData.find((trilha) => trilha.slug === slug) as LearningPathType
+    const learningPath = learningPathsData.find((trilha) => trilha.slug === slug) as LearningPathType
 
     const goBackUrl = user?.learningPath === "Desenvolvimento" ? "/trilhas-desenvolvedor" : "/trilhas-dados"
 
