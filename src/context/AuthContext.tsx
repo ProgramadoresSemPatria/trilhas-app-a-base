@@ -4,8 +4,9 @@ import SignInWithGoogle from "../services/auth/signInWithGoogle";
 import SignInWithEmail from "../services/auth/signInWithEmail";
 import { signOut } from "firebase/auth";
 import { auth } from "../lib/firebase";
-import { UserType } from "../utils/types";
+import { StudentType, UserType } from "../utils/types";
 import ErrorToast from "../components/toasts/error-toast";
+import { get, getDatabase, ref } from "firebase/database";
 
 export interface AuthContextType {
   user: UserType | null;
@@ -13,6 +14,7 @@ export interface AuthContextType {
   loginAsStudent: (email: string) => Promise<void>;
   logout: () => void;
   isLoggedIn: boolean;
+  loadingUser: boolean;
 }
 
 export const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -23,24 +25,43 @@ interface AuthProviderProps {
 
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [user, setUser] = useState<UserType | null>(null);
+  const [loadingUser, setLoadingUser] = useState(false);
   const isLoggedIn = !!user;
 
   useEffect(() => {
     const userLoginFlag = localStorage.getItem("userLoginMethod");
-    
-    const onAuthStateChanged = auth.onAuthStateChanged((firebaseUser) => {
+    const onAuthStateChanged = auth.onAuthStateChanged( async(firebaseUser) => {
       if (firebaseUser) {
         const email = firebaseUser.email ?? "";
         const isAdmin = email.endsWith(".com"); // TODO: @borderlesscoding.com
-        if ((isAdmin && userLoginFlag === "admin") || 
-            (!isAdmin && userLoginFlag === "student")) {
-          setUser({
-            userId: firebaseUser.uid,
-            name: firebaseUser.displayName ?? "",
-            email: email,
-            role: isAdmin ? "admin" : "student",
-          });
-        } else if (userLoginFlag) {
+        if ((isAdmin && userLoginFlag === "admin") || (!isAdmin && userLoginFlag === "student")) {
+          if(isAdmin) {
+            setUser({
+              userId: firebaseUser.uid,
+              name: firebaseUser.displayName ?? "",
+              email: email,
+              role: "admin",
+            });
+          }
+          else {
+            const sessionId = localStorage.getItem("session-id");
+            let userDB: StudentType | null = null;
+            if (sessionId) {
+              const snapshot = await get(ref(getDatabase(), "students/"));
+              userDB = Object.values(snapshot.val())
+                .find((user) => (user as StudentType).sessionId === sessionId) as StudentType;
+            }
+
+            setUser({
+              userId: userDB?.userId ?? firebaseUser.uid,
+              name: userDB?.name ?? "",
+              email: userDB?.email ?? email,
+              role: "student",
+              learningPath: userDB?.learningPath ?? "",
+            });
+          }
+        } 
+        else if (userLoginFlag) {
           console.error("User role doesn't match login method");
           signOut(auth);
           localStorage.removeItem("userLoginMethod");
@@ -81,23 +102,22 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
   const loginAsStudent = async (email: string) => {
     localStorage.setItem("userLoginMethod", "student");
+    setLoadingUser(true);
     const { resultUser, error } = await SignInWithEmail(email);
-    
+
     if (resultUser) {
       const user = resultUser as UserType;
-      
-      if (user.role !== "student") {
-        localStorage.removeItem("userLoginMethod");
-        throw new Error("User is not a student");
-      }
       
       setUser({
         userId: user.userId,
         name: user.name,
         email: user.email ?? "",
         role: "student",
+        learningPath: user.learningPath ?? "",
       });
+      setLoadingUser(false);
     } else {
+      setLoadingUser(false);
       localStorage.removeItem("userLoginMethod");
       throw new Error((error as { message?: string })?.message || "Failed to log in");
     }
@@ -110,7 +130,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, loginAsAdmin, loginAsStudent, logout, isLoggedIn }}>
+    <AuthContext.Provider value={{ loadingUser, user, loginAsAdmin, loginAsStudent, logout, isLoggedIn }}>
       {children}
     </AuthContext.Provider>
   );
