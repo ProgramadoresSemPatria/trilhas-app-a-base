@@ -27,8 +27,8 @@ export default async function SignInWithEmail(email: string) {
                 await setPersistence(auth, browserLocalPersistence);
                 const result = await signInAnonymously(auth);
                 const uid = result?.user.uid;
-                localStorage.setItem("session-id", uid ?? "");
-                set(ref(getDatabase(), "students/" + (userInfo as User).userId + "/sessionId"), uid);
+                localStorage.setItem("sessionToken", uid ?? "");
+                set(ref(getDatabase(), "students/" + (userInfo as User).userId + "/sessionToken"), uid);
 
                 resultUser = userInfo;
                 SuccessToast({ message: "Usuário logado com sucesso." });

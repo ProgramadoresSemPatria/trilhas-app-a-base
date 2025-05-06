@@ -44,12 +44,12 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
             });
           }
           else {
-            const sessionId = localStorage.getItem("session-id");
+            const sessionId = localStorage.getItem("sessionToken");
             let userDB: StudentType | null = null;
             if (sessionId) {
               const snapshot = await get(ref(getDatabase(), "students/"));
               userDB = Object.values(snapshot.val())
-                .find((user) => (user as StudentType).sessionId === sessionId) as StudentType;
+                .find((user) => (user as StudentType).sessionToken === sessionId) as StudentType;
             }
 
             setUser({

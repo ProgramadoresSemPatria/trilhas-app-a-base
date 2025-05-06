@@ -3,7 +3,8 @@ export interface StudentType {
     email: string;
     userId: string;
     learningPath: string;
-    sessionId?: string;
+    sessionToken?: string;
+    role: "student";
 }
 
 export interface UserType {
