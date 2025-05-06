@@ -31,9 +31,9 @@ export function LearningPathCard({ learningPath }: LearningPathCardProps) {
   return (
     <div className="overflow-hidden rounded-xl shadow-lg mb-10">
       <div className="py-6 pb-4">
-        <h2 className="mb-4 font-mono text-2xl font-bold uppercase tracking-wider text-white">
+        <h1 className="mb-4 font-mono text-2xl font-bold uppercase tracking-wider text-white">
           {learningPath.title}
-        </h2>
+        </h1>
         
         <div className="h-[2px] w-full bg-gradient-to-r from-[#28d3a0] to-[#4F46E5]"></div>
       </div>
@@ -41,10 +41,10 @@ export function LearningPathCard({ learningPath }: LearningPathCardProps) {
       <div className="py-6 pb-6">
         <ul className="space-y-4">
           {learningPath.courses.map((course, courseIndex) => (
-            <li key={courseIndex} className="overflow-hidden rounded-lg bg-[#18063a] backdrop-blur-sm">
+            <li key={courseIndex} className="overflow-hidden rounded-lg bg-[#18063a] ease-linear cursor-pointer">
               <button
                 onClick={() => toggleCourse(courseIndex)}
-                className="flex w-full items-center justify-between p-4 text-left font-mono text-white hover:bg-[#18063a]/80"
+                className="flex w-full items-center justify-between p-4 text-left font-mono text-white hover:bg-[#18063a]/80 cursor-pointer"
               >
                 <span className="font-medium">{course.title}</span>
                 {expandedCourse === courseIndex ? (
@@ -58,10 +58,10 @@ export function LearningPathCard({ learningPath }: LearningPathCardProps) {
                 <div className="border-t border-[#4F46E5]/20">
                   <ul className="divide-y divide-[#4f46f3]/30">
                     {course.modules.map((module, moduleIndex) => (
-                      <li key={moduleIndex} className="">
+                      <li key={moduleIndex} className="cursor-pointer">
                         <button
                           onClick={() => toggleModule(moduleIndex)}
-                          className="flex w-full items-center justify-between p-3 px-4 text-left text-sm font-mono bg-[#4F46E5]/15 text-white hover:bg-[#4F46E5]/40"
+                          className="flex w-full items-center justify-between p-3 px-4 text-left text-sm font-mono bg-[#4F46E5]/15 text-white hover:bg-[#4F46E5]/40 cursor-pointer"
                         >
                           <span>{module.title}</span>
                           {expandedModule === moduleIndex ? (
@@ -81,7 +81,7 @@ export function LearningPathCard({ learningPath }: LearningPathCardProps) {
                                   rel="noopener noreferrer"
                                   className="flex items-center justify-between text-sm text-[#28d3a0] hover:text-white transition-colors"
                                 >
-                                  <span className="font-mono line-clamp-1">{classItem.title}</span>
+                                  <span className="font-mono ">{classItem.title}</span>
                                   <ExternalLink className="ml-2 h-4 w-4 flex-shrink-0" />
                                 </a>
                               </li>
