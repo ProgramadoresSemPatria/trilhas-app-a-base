@@ -14,7 +14,9 @@ export default function Painel() {
         name: "", 
         email: "", 
         learningPath: "",
-        userId: ""
+        userId: "",
+        sessionToken: "",
+        role: "student"
     }) 
     const { data: studentsData, isLoading, error, refetch } = useStudentData();
     const filteredStudents = studentsData?.filter((student) => student.name.toLowerCase().includes(search.toLowerCase()));
@@ -45,9 +47,9 @@ export default function Painel() {
       <>
         <Header/>
         <main className="w-full h-[calc(100vh-10rem)] max-w-[96rem] mx-auto text-white p-5 sm:p-8 lg:p-12">
-            <div className="flex items-center justify-between">
-                <h1 className="text-xl sm:text-2xl font-medium sm:mt-5">Painel Administrativo</h1>
-                <div className="flex items-center gap-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between">
+                <h1 className="text-xl sm:text-2xl font-medium lg:mt-5">Painel Administrativo</h1>
+                <div className="flex items-center gap-8 mt-2 md:mt-0">
                     <div className="relative flex items-center max-w-md mt-[.6rem]">
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                         <input 

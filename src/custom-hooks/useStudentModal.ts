@@ -51,7 +51,7 @@ export default function useStudentMoal({
 
   const handleClose = () => {
     resetForm()
-    setSelectedStudent({ name: "", email: "", learningPath: "", userId: "" })
+    setSelectedStudent({ name: "", email: "", learningPath: "", userId: "", sessionToken: "", role: "student" })
     onClose()
   }
 
@@ -65,10 +65,13 @@ export default function useStudentMoal({
         let response = 0
 
         if (selectedStudent?.userId) {
-          response = await updateStudent({ name, email, learningPath, userId: selectedStudent.userId });
+          response = await updateStudent({
+            name, email, learningPath, userId: selectedStudent.userId,
+            role: "student"
+          });
         } 
         else {
-          response = await saveStudent({ name, email, learningPath, userId });
+          response = await saveStudent({ name, email, learningPath, userId, role: "student" });
         }
         
         if (response === 201) {
@@ -95,7 +98,7 @@ export default function useStudentMoal({
       if (response === 200) {
         setIsStudentSaved(true); 
         resetForm()
-        setSelectedStudent({ name: "", email: "", learningPath: "", userId: "" })
+        setSelectedStudent({ name: "", email: "", learningPath: "", userId: "", sessionToken: "", role: "student" })
         onClose()
         SuccessToast({ message: "Aluno removido com sucesso!" });
       } else {
