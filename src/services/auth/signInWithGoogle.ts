@@ -1,4 +1,4 @@
-//import ErrorToast from '../../components/toasts/error-toast';
+import ErrorToast from '../../components/toasts/error-toast';
 import { auth } from '../../lib/firebase';
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
@@ -8,12 +8,20 @@ export default async function SignInWithGoogle() {
   try {
     const provider = new GoogleAuthProvider();
     result = await signInWithPopup(auth, provider);
-    /* const email = result.user.email;
-    if (!email?.endsWith("@borderlesscoding.com")) {
+    if(result) {
+      /* const email = result.user.email;
+      if (!email?.endsWith("@borderlesscoding.com")) {
+        result = null;
+        ErrorToast({ message: "Access denied." });
+        throw new Error("Access denied. You must be a member of @borderlesscoding.com");
+      } */
+    }
+    else {
       result = null;
       ErrorToast({ message: "Access denied." });
-      throw new Error("Access denied. You must be a member of @borderlesscoding.com");
-    } */
+      throw new Error("Access denied.");
+    }
+
   } catch (e) {
     error = e;
   }

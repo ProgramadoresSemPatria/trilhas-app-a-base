@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext"
 import { cn } from "../../lib/utils"
 import { useNavigate } from "react-router-dom";
@@ -7,14 +7,39 @@ import Button from "../../components/button";
 export default function SignIn() {
 
     const [isAdmin, setIsAdmin] = useState(false); 
-    const { loginAsAdmin, isLoggedIn } = useAuth()
+    const [buttonStatus, setButtonStatus] = useState<"Carregando..." | "Entrar">('Entrar');
+    const [email, setEmail] = useState("");
+    const { loginAsAdmin, loginAsStudent, isLoggedIn, user, loadingUser } = useAuth()
     const navigate = useNavigate();
 
     useEffect(() => {
-        if (isLoggedIn) {
-            navigate("/painel");
+        if (isLoggedIn && user?.role === "admin") {
+          navigate("/painel");
         } 
-    }, [navigate, isLoggedIn])
+        else if (isLoggedIn && user?.role === "student") {
+            if(user.learningPath === "Desenvolvimento") {
+              navigate("/trilhas-desenvolvedor");
+            }
+            else if (user.learningPath === "Dados") {
+              navigate("/trilhas-dados");
+            }
+        }
+      }, [navigate, isLoggedIn, user]);
+
+      useEffect(() => {
+        if (loadingUser) {
+          setButtonStatus('Carregando...');
+        } else {
+          setButtonStatus('Entrar');
+        }
+      }, [loadingUser]);
+
+    const handleEmailSignIn = async (e: FormEvent<HTMLFormElement>) => {
+      e.preventDefault()
+      if (!email) return
+
+      await loginAsStudent(email)
+    }
     
     return (
       <main className="w-full h-screen flex flex-col justify-center items-center">
@@ -47,19 +72,21 @@ export default function SignIn() {
                         <h2 className="text-2xl font-bold text-white mb-2">Login de Estudante</h2>
                         <p className="text-gray-400 text-sm">Acesse sua conta para visualizar suas trilhas de aprendizado</p>
                     </div>
-                    <form action="" className="mt-8 flex flex-col gap-2 text-white">
+                    <form onSubmit={handleEmailSignIn} className="mt-8 flex flex-col gap-2 text-white">
                         <label htmlFor="email">Email</label>
                         <input 
                             type="email" 
                             name="email" 
                             id="email"
+                            onChange={(e) => setEmail(e.target.value)}
                             placeholder="johndoe@email.com" 
                             className="p-2 bg-[#00060f] rounded-md"
                             />
                         <Button 
                             className="w-full mt-3" 
                             type="submit"
-                            >Entrar
+                            >
+                            {buttonStatus}
                         </Button>
                     </form>
                 </section>
