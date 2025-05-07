@@ -4,13 +4,13 @@ export const learningPathsData = [
       title: "Full Stack JavaScript (BE Wise)",
       courses: [
         {
-          title: "Node.js Básico",     
+          title: "Node.js Basics",     
           modules: [
             {
               title: "Node.js Fundamentos",
               classes: [
                 {
-                  title: "Porque o JavaScript foi criado?",
+                  title: "JavaScript básico (variáveis e tipos primitivos, operadores e controle de fluxo, estrutura de controle)",
                   link: "https://www.youtube.com/watch?v=hyMCPZNLXps",
                 },
                 {
@@ -34,6 +34,65 @@ export const learningPathsData = [
           ],
         },
         {
+          title: "Python Básico",
+          modules: [
+            {
+              title: "Fundamentos do Python",
+              aulas: [
+                {
+                  title: "Aula (sintaxe, funções e módulos, manipulação de listas, dicionários e conjuntos, POO no Python)",
+                  link: "https://www.youtube.com/watch?v=placeholder"
+                },
+                {
+                  title: "Tratamento de erros",
+                  link: "https://www.youtube.com/watch?v=xz2B3bfNjEk"
+                },
+              ]
+            },
+            {
+              title: "Básico",
+              aulas: [
+                {
+                  title: "Criar um Servidor Web com Flask",
+                  link: "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
+                },
+                {
+                  title: "Criar APIs RESTful com FastAPI/Flask",
+                  link: "https://www.youtube.com/watch?v=R26iojTwUv8"
+                },
+                {
+                  title: "Trabalhar com DB - PostgreSQL/MySQL",
+                  link: "https://www.youtube.com/watch?v=pDBnCDuL-dc&list=PLucm8g_ezqNp7ECP-fidzdgeVDufBTYDV"
+                },
+                {
+                  title: "SQLAlchemy Lib",
+                  link: "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
+                },
+                {
+                  title: "MongoDB",
+                  link: "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
+                },
+                {
+                  title: "Autenticação e Segurança com JWT",
+                  link: "https://www.youtube.com/watch?v=iO9UAFt4ibs"
+                },
+                {
+                  title: "Trabalhar com Arquivos e Uploads",
+                  link: "https://youtu.be/oKtJdsFfNnI"
+                },
+                {
+                  title: "Variáveis de Ambiente",
+                  link: "https://youtu.be/-PydAYt22kc"
+                },
+                {
+                  title: "Trabalhar com APIs Externas com requisições HTTP",
+                  link: "https://www.youtube.com/watch?v=bC_aA3Tshgs"
+                }
+              ]
+            }
+          ]
+        },
+        {
           title: "JavaScript/Node.js Intermediário - Back End Wise",      
           modules: [
             {
@@ -48,7 +107,7 @@ export const learningPathsData = [
                   link: "https://www.youtube.com/watch?v=3pXVHRT-amw",
                 },
                 {
-                  title: "Comunicação básica Web(TCP, IP, HTTP, SSL, DNS)",
+                  title: "Comunicação básica Web (TCP, IP, HTTP, SSL, DNS)",
                   link: "https://www.youtube.com/watch?v=UsaNtKOoXyg",
                 },
                 {
@@ -102,11 +161,11 @@ export const learningPathsData = [
                   link: "https://www.youtube.com/watch?v=csf3dyY4GGg",
                 },
                 {
-                  title: "Modificar conteúdo(.innerText, .innerHTML, .classList)",
+                  title: "Modificar conteúdo (.innerText, .innerHTML, .classList)",
                   link: "https://www.youtube.com/watch?v=yDWLxaRQl5Q",
                 },
                 {
-                  title: "Eventos(addEventListener(), click, input, keydown)",
+                  title: "Eventos (addEventListener(), click, input, keydown)",
                   link: "https://www.youtube.com/watch?v=I-seGqiRWBI",
                 },
               ],
@@ -1485,7 +1544,7 @@ export const learningPathsData = [
           ]
         },
         {
-          title: "Node.js Básico",      
+          title: "Node.js Basics",      
           modules: [
             {
               title: "Fundamentos",
@@ -1508,6 +1567,65 @@ export const learningPathsData = [
                 },
               ],
             },
+          ]
+        },
+        {
+          title: "Python Básico",
+          modules: [
+            {
+              title: "Fundamentos do Python",
+              aulas: [
+                {
+                  title: "Aula (sintaxe, funções e módulos, manipulação de listas, dicionários e conjuntos, POO no Python)",
+                  link: "https://www.youtube.com/watch?v=placeholder"
+                },
+                {
+                  title: "Tratamento de erros",
+                  link: "https://www.youtube.com/watch?v=xz2B3bfNjEk"
+                },
+              ]
+            },
+            {
+              title: "Básico",
+              aulas: [
+                {
+                  title: "Criar um Servidor Web com Flask",
+                  link: "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
+                },
+                {
+                  title: "Criar APIs RESTful com FastAPI/Flask",
+                  link: "https://www.youtube.com/watch?v=R26iojTwUv8"
+                },
+                {
+                  title: "Trabalhar com DB - PostgreSQL/MySQL",
+                  link: "https://www.youtube.com/watch?v=pDBnCDuL-dc&list=PLucm8g_ezqNp7ECP-fidzdgeVDufBTYDV"
+                },
+                {
+                  title: "SQLAlchemy Lib",
+                  link: "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
+                },
+                {
+                  title: "MongoDB",
+                  link: "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
+                },
+                {
+                  title: "Autenticação e Segurança com JWT",
+                  link: "https://www.youtube.com/watch?v=iO9UAFt4ibs"
+                },
+                {
+                  title: "Trabalhar com Arquivos e Uploads",
+                  link: "https://youtu.be/oKtJdsFfNnI"
+                },
+                {
+                  title: "Variáveis de Ambiente",
+                  link: "https://youtu.be/-PydAYt22kc"
+                },
+                {
+                  title: "Trabalhar com APIs Externas com requisições HTTP",
+                  link: "https://www.youtube.com/watch?v=bC_aA3Tshgs"
+                }
+              ]
+            }
           ]
         },
         {
@@ -2009,7 +2127,7 @@ export const learningPathsData = [
       description: "Curso completo de NodeJS",
       courses: [
         {
-          title: "Node.js Básico",      
+          title: "Node.js Basics",      
           modules: [
             {
               title: "Conceitos Básicos",
@@ -3284,6 +3402,32 @@ export const learningPathsData = [
       title: "Full Stack Python (Be Wise)",
       courses: [
         {
+          title: "Node.js Basics",      
+          modules: [
+            {
+              title: "Fundamentos",
+              classes: [
+                {
+                  title: "Criando um Servidor HTTP com NodeJS e Express | Middleware | Manipulação de JSON e Body | Banco de Dados (MongoDB e MySQL) | Variáveis de Ambiente",
+                  link: "https://www.youtube.com/watch?v=IOfDoyP1Aq0",
+                },
+                {
+                  title: "Rotas e Parâmetros (GET, POST, PUT, DELETE)",
+                  link: "https://www.youtube.com/watch?v=-BbWowF82yY",
+                },
+                {
+                  title: "Autenticação e Segurança Básica - JWT",
+                  link: "https://www.youtube.com/watch?v=D0gpL8-DVrc",
+                },
+                {
+                  title: "Trabalhar com APIs Externas com requisições HTTP",
+                  link: "https://www.youtube.com/watch?v=dpKzIxUeFAE",
+                },
+              ],
+            },
+          ]
+        },
+        {
           title: "Python Basics",
           modules: [
             {
@@ -4031,7 +4175,7 @@ export const learningPathsData = [
               title: "Sintaxe e Conceitos Básicos",
               classes: [
                 {
-                  title: "Fundamentos",
+                  title: "Fundamentos (variáveis e tipos de dados, operadores, estruturas condicionais, laços de repetição, funções, classes e objetos, leitura e escrita em arquivos)",
                   link: "https://www.youtube.com/watch?v=rfscVS0vtbw"
                 },
                 {
@@ -5171,7 +5315,7 @@ export const learningPathsData = [
               title: "Python Basics",
               classes: [
                 {
-                  title: "Fundamentos",
+                  title: "Fundamentos (variáveis e tipos de dados, operadores, estruturas condicionais, laços de repetição, funções, classes e objetos, leitura e escrita em arquivos)",
                   link: "https://www.youtube.com/watch?v=rfscVS0vtbw"
                 },
                 {
@@ -5415,7 +5559,7 @@ export const learningPathsData = [
               title: "Python Basics",
               classes: [
                 {
-                  title: "Fundamentos",
+                  title: "Fundamentos (variáveis e tipos de dados, operadores, estruturas condicionais, laços de repetição, funções, classes e objetos, leitura e escrita em arquivos)",
                   link: "https://www.youtube.com/watch?v=rfscVS0vtbw"
                 },
                 {
@@ -5819,19 +5963,6 @@ export const learningPathsData = [
         }
       ],
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       slug: "artificial-intelligence",
       title: "Artificial Intelligence", 
