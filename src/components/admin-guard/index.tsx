@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useAuth } from "../../context/AuthContext";
-import { useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
-export default function AdminGuard({ children }: { children: React.ReactNode }) {
+export default function AdminGuard() {
 
     const { isLoggedIn, user } = useAuth()
     const navigate = useNavigate();
@@ -13,9 +13,5 @@ export default function AdminGuard({ children }: { children: React.ReactNode }) 
         }
     }, [isLoggedIn, navigate, user?.role])
 
-    return (
-        <>
-            {children}
-        </>
-    )
+    return <Outlet />
 }

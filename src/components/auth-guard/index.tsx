@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useAuth } from "../../context/AuthContext";
-import { useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
-export default function AuthGuard({ children }: { children: React.ReactNode }) {
+export default function AuthGuard() {
 
     const { isLoggedIn } = useAuth()
     const navigate = useNavigate();
@@ -13,9 +13,5 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
         }
     }, [isLoggedIn, navigate])
 
-    return (
-        <>
-            {children}
-        </>
-    )
+    return <Outlet />;
 }
