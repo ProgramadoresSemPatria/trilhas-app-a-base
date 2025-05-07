@@ -6,9 +6,10 @@ export default async function SignInWithGoogle() {
   let result = null,
       error = null;
   try {
+    localStorage.setItem("userLoginMethod", "admin");
     const provider = new GoogleAuthProvider();
     result = await signInWithPopup(auth, provider);
-    if(result) {
+    if(result) { /* TODO: @borderlesscoding.com */
       /* const email = result.user.email;
       if (!email?.endsWith("@borderlesscoding.com")) {
         result = null;
