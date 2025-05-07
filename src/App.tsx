@@ -15,39 +15,21 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Toaster position="top-right" />
+      <Toaster position="bottom-right" />
       <BrowserRouter>
         <Routes>
-            <Route path="/" element={<SignIn />} />
-            <Route path="/sign-in" element={<SignIn />} />
-            <Route path="/painel" element={
-              <AuthGuard>
-                <AdminGuard>
-                  <Painel />
-                </AdminGuard>
-              </AuthGuard>
-              } />
-            <Route path="/trilhas-desenvolvedor" element={
-              <AuthGuard>
-                  <TrilhasDesenvolvedor />
-              </AuthGuard>
-              } />
-            <Route path="/trilhas-dados" element={
-              <AuthGuard>
-                  <TrilhasDados />
-              </AuthGuard>
-              } />
-              <Route path="/trilhas-desenvolvedor/:slug" element={
-                <AuthGuard>
-                    <Aulas />
-                </AuthGuard>
-                } />
-            <Route path="/trilhas-dados/:slug" element={
-              <AuthGuard>
-                  <Aulas />
-              </AuthGuard>
-              } />
-        </Routes>
+          <Route path="/" element={<SignIn />} />
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route element={<AuthGuard />}>
+          <Route element={<AdminGuard />}>
+            <Route path="/painel" element={<Painel />} />
+          </Route>
+          <Route path="/trilhas-desenvolvedor" element={<TrilhasDesenvolvedor />} />
+          <Route path="/trilhas-dados" element={<TrilhasDados />} />
+          <Route path="/trilhas-desenvolvedor/:slug" element={<Aulas />} />
+          <Route path="/trilhas-dados/:slug" element={<Aulas />} />
+        </Route>
+      </Routes>
       </BrowserRouter>
     </QueryClientProvider>
   )
