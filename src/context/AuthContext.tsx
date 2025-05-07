@@ -65,10 +65,12 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
           console.error("User role doesn't match login method");
           signOut(auth);
           localStorage.removeItem("userLoginMethod");
+          localStorage.removeItem("sessionToken");
         }
       } else {
         setUser(null);
         localStorage.removeItem("userLoginMethod");
+        localStorage.removeItem("sessionToken");
       }
     });
 
