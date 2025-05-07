@@ -6,7 +6,7 @@ export default function Header() {
     const { logout } = useAuth()
 
     return (
-        <header className="w-full h-20 flex bg-[#190639]">
+        <header className="w-full h-20 flex bg-[#190639] sticky top-0 z-50">
             <nav className="w-full flex items-center justify-between px-4 sm:px-8 lg:px-16">
                 <img 
                     src="/logo_horizontal_branco.webp" 
