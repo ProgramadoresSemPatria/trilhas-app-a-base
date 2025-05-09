@@ -4,11 +4,22 @@ import { LearningPathType } from "../../utils/types"
 
 type LearningPathCardProps = {
     learningPath: LearningPathType
+    classesTaken: string[]
+    setClassesTaken: (classesTaken: string[]) => void
 }
 
-export function LearningPathCard({ learningPath }: LearningPathCardProps) {
+export function LearningPathCard({ learningPath, classesTaken, setClassesTaken }: LearningPathCardProps) {
   const [expandedCourse, setExpandedCourse] = useState<number | null>(null)
   const [expandedModule, setExpandedModule] = useState<number | null>(null)
+
+  const toggleClassTaken = (classId: string) => {
+      const updatedClassesTaken = classesTaken.includes(classId) 
+      ? classesTaken.filter((id) => id !== classId) 
+      : [...classesTaken, classId]
+
+      setClassesTaken(updatedClassesTaken)
+      localStorage.setItem("classes-taken-storage", JSON.stringify(updatedClassesTaken))
+  }
 
   const toggleCourse = (courseIndex: number) => {
     if (expandedCourse === courseIndex) {
@@ -74,12 +85,26 @@ export function LearningPathCard({ learningPath }: LearningPathCardProps) {
                         {expandedModule === moduleIndex && (
                           <ul className="divide-y divide-[#4F46E5]/10 bg-[#0c0625] px-2 py-2">
                             {module.classes.map((classItem, classIndex) => (
-                              <li key={classIndex} className="rounded-md p-2 hover:bg-[#4F46E5]/10 transition-colors">
+                              <li key={classIndex} className="rounded-md p-2 hover:bg-[#4F46E5]/10 transition-colors flex items-center">
+                                <div className="inline-flex items-center mr-3">
+                                    <label className="flex items-center cursor-pointer relative" htmlFor={classItem.classId}>
+                                    <input 
+                                        type="checkbox" 
+                                        className="peer h-5 w-5 cursor-pointer transition-all appearance-none rounded shadow-sm border border-slate-200
+                                         checked:bg-[#28d3a0] checked:border-[#28d3a0]" id={classItem.classId}
+                                        checked={classesTaken.includes(classItem?.classId as string)}
+                                        onChange={() => toggleClassTaken(classItem?.classId as string)}
+                                        />
+                                    <span className="absolute text-white opacity-0 peer-checked:opacity-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                        <svg fill="none" width="18px" height="18px" stroke-width="2" color="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    </span>
+                                    </label>
+                                </div>
                                 <a
                                   href={classItem.link}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="flex items-center justify-between text-sm text-[#28d3a0] hover:text-white transition-colors"
+                                  className="flex flex-1 items-center justify-between text-sm text-[#28d3a0] hover:text-white transition-colors"
                                 >
                                   <span className="font-mono ">{classItem.title}</span>
                                   <ExternalLink className="ml-2 h-4 w-4 flex-shrink-0" />
