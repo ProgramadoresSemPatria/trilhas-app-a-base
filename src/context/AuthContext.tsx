@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     const onAuthStateChanged = auth.onAuthStateChanged( async(firebaseUser) => {
       if (firebaseUser) {
         const email = firebaseUser.email ?? "";
-        const isAdmin = email.endsWith(".com"); // TODO: @borderlesscoding.com
+        const isAdmin = email.endsWith("@borderlesscoding.com"); // TODO: @borderlesscoding.com
         if ((isAdmin && userLoginFlag === "admin") || (!isAdmin && userLoginFlag === "student")) {
           if(isAdmin) {
             setUser({
@@ -83,7 +83,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     
     if (result) {
       const email = result.user.email ?? ""; 
-      if (!email.endsWith(".com")) { // TODO: @borderlesscoding.com
+      if (!email.endsWith("@borderlesscoding.com")) { // TODO: @borderlesscoding.com
         ErrorToast({ message: "Access denied." });
         await signOut(auth);
         localStorage.removeItem("userLoginMethod");

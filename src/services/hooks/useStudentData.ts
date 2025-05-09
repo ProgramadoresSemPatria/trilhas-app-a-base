@@ -20,8 +20,7 @@ const useStudentData = () => {
   return useQuery({
     queryKey: ["studentData"],
     queryFn: fetchData,
-    /* TODO: Add user === admin check */
-    enabled: user?.role === "student",
+    enabled: user?.role === "admin",
   });
 };
 

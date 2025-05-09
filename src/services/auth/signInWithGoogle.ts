@@ -9,13 +9,13 @@ export default async function SignInWithGoogle() {
     localStorage.setItem("userLoginMethod", "admin");
     const provider = new GoogleAuthProvider();
     result = await signInWithPopup(auth, provider);
-    if(result) { /* TODO: @borderlesscoding.com */
-      /* const email = result.user.email;
+    if(result) { 
+      const email = result.user.email;
       if (!email?.endsWith("@borderlesscoding.com")) {
         result = null;
         ErrorToast({ message: "Access denied." });
         throw new Error("Access denied. You must be a member of @borderlesscoding.com");
-      } */
+      } 
     }
     else {
       result = null;
