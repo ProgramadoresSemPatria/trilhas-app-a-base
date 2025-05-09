@@ -32,6 +32,7 @@ export interface ModuleType {
 }
 
 export interface ClassType {
+    classId: string;
     title: string
     link: string
 }

@@ -11,7 +11,7 @@ export default async function saveStudent(student: StudentType) {
 
     if (snapshot.exists()) {
         const students = snapshot.val();
-        console.log('students', students)
+
         const emailExists = Object.values(students).some(
             (studentFromDB) => (studentFromDB as StudentType).email === student.email
         );
