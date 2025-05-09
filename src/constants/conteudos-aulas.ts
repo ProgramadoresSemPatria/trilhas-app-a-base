@@ -4,28 +4,28 @@ export const learningPathsData = [
     "title": "Full Stack JavaScript (FE Wise)",
     "courses": [
       {
-        "title": "JavaScript(ES6+)/Node.js Intermediário - Back End Wise",
+        "title": "JavaScript(ES6+)/Node.js Intermediário - Front End Wise",
         "modules": [
           {
             "title": "Introdução ao JavaScript",
             "classes": [
               {
-                "classId": "fs-js-be-1",
+                "classId": "fs-js-fe-1",
                 "title": "Introdução ao JavaScript (Porque o JavaScript foi criado?, Operadores e Controle de Fluxo, Estruturas de Controle...)",
                 "link": "https://www.youtube.com/watch?v=hyMCPZNLXps"
               },
               {
-                "classId": "fs-js-be-2",
+                "classId": "fs-js-fe-2",
                 "title": "O que é Client Side Rendering e Server Side Rendering?",
                 "link": "https://www.youtube.com/watch?v=-JXUaydU1J0"
               },
               {
-                "classId": "fs-js-be-3",
+                "classId": "fs-js-fe-3",
                 "title": "Programação Orientada a Objetos (POO)",
                 "link": "https://www.youtube.com/watch?v=pbb0jzXt_xA&pp=ygUbcG9vIHZzIGZ1bmNpb25hbCBqYXZhc2NyaXB0"
               },
               {
-                "classId": "fs-js-be-4",
+                "classId": "fs-js-fe-4",
                 "title": "Programação Funcional",
                 "link": "https://www.youtube.com/watch?v=LUJTzvsYY1A&pp=ygUicHJvZ3JhbWHDp8OjbyBmdW5jaW9uYWwgamF2YXNjcmlwdNIHCQl-CQGHKiGM7w%3D%3D"
               }
@@ -35,47 +35,47 @@ export const learningPathsData = [
             "title": "Fundamentos do JavaScript",
             "classes": [
               {
-                "classId": "fs-js-be-5",
+                "classId": "fs-js-fe-5",
                 "title": "Imutabilidade",
                 "link": "https://www.youtube.com/watch?v=dPgdmanIW_U&pp=ygUYbXV0YWJpbGlkYWRlICBqYXZhc2NyaXB0"
               },
               {
-                "classId": "fs-js-be-6",
+                "classId": "fs-js-fe-6",
                 "title": "Imutabilidade II",
                 "link": "https://www.youtube.com/watch?v=AHLQ0daaTwI&pp=ygUobXV0YWJpbGlkYWRlIHZzIGltdXRhYmlsaWRhZGUgamF2YXNjcmlwdA%3D%3D"
               },
               {
-                "classId": "fs-js-be-7",
+                "classId": "fs-js-fe-7",
                 "title": "Closures e Hoisting",
                 "link": "https://www.youtube.com/watch?v=A9RwfhYjabw"
               },
               {
-                "classId": "fs-js-be-8",
+                "classId": "fs-js-fe-8",
                 "title": "Short-circuit evaluation (valor || defaultValue)",
                 "link": "https://www.youtube.com/watch?v=AhNUQ6Hn3qM"
               },
               {
-                "classId": "fs-js-be-9",
+                "classId": "fs-js-fe-9",
                 "title": "Function declaration/Arrow Function",
                 "link": "https://www.youtube.com/watch?v=lYze7YpZ6xg"
               },
               {
-                "classId": "fs-js-be-10",
+                "classId": "fs-js-fe-10",
                 "title": "Escopo de Variáveis (global, function, block)",
                 "link": "https://www.youtube.com/watch?v=RY1Rq0INc9U"
               },
               {
-                "classId": "fs-js-be-11",
+                "classId": "fs-js-fe-11",
                 "title": "Módulos e Importações (export/import, CommonJS vs ES Modules",
                 "link": "https://www.youtube.com/watch?v=HGHsiD60iXU"
               },
               {
-                "classId": "fs-js-be-12",
+                "classId": "fs-js-fe-12",
                 "title": "Optional Chaining",
                 "link": "https://www.youtube.com/watch?v=czrsDDnMVj0&pp=ygUcb3B0aW9uYWwgY2hhaW5pbmcgamF2YXNjcmlwdA%3D%3D"
               },
               {
-                "classId": "fs-js-be-13",
+                "classId": "fs-js-fe-13",
                 "title": "Nullish Coalescing",
                 "link": "https://www.youtube.com/watch?v=GbHVrOObGcs&pp=ygUmbnVsbGlzaCBjb2FsZXNjaW5nIG9wZWFydG9yIGphdmFzY3JpcHQ%3D"
               }
@@ -85,17 +85,17 @@ export const learningPathsData = [
             "title": "Eventos e Manipulação do DOM",
             "classes": [
               {
-                "classId": "fs-js-be-14",
+                "classId": "fs-js-fe-14",
                 "title": "Selecionar elementos (document.querySelector(), getElementById(), getElementsByClassName())",
                 "link": "https://www.youtube.com/watch?v=csf3dyY4GGg"
               },
               {
-                "classId": "fs-js-be-15",
+                "classId": "fs-js-fe-15",
                 "title": "Modificar conteúdo (.innerText, .innerHTML, .classList)",
                 "link": "https://www.youtube.com/watch?v=yDWLxaRQl5Q"
               },
               {
-                "classId": "fs-js-be-16",
+                "classId": "fs-js-fe-16",
                 "title": "Eventos (addEventListener(), click, input, keydown)",
                 "link": "https://www.youtube.com/watch?v=I-seGqiRWBI"
               }
@@ -105,27 +105,27 @@ export const learningPathsData = [
             "title": "Manipulação JS",
             "classes": [
               {
-                "classId": "fs-js-be-17",
+                "classId": "fs-js-fe-17",
                 "title": "Métodos de String",
                 "link": "https://www.youtube.com/watch?v=lv4hFkirhps"
               },
               {
-                "classId": "fs-js-be-18",
+                "classId": "fs-js-fe-18",
                 "title": "Métodos de Array - map(), filter(), reduce(), forEach(), some(), every(), find(), includes()",
                 "link": "https://www.youtube.com/watch?v=WpL5J61vW3I"
               },
               {
-                "classId": "fs-js-be-19",
+                "classId": "fs-js-fe-19",
                 "title": "Desestruturação de Arrays",
                 "link": "https://www.youtube.com/watch?v=qhECs40xMec"
               },
               {
-                "classId": "fs-js-be-20",
+                "classId": "fs-js-fe-20",
                 "title": "Repeat",
                 "link": "https://www.youtube.com/watch?v=jtWc9dARMVQ"
               },
               {
-                "classId": "fs-js-be-21",
+                "classId": "fs-js-fe-21",
                 "title": "Includes",
                 "link": "https://www.youtube.com/watch?v=UIIEYH6LEdo"
               }
@@ -135,22 +135,22 @@ export const learningPathsData = [
             "title": "Objetos e Orientação a Objetos",
             "classes": [
               {
-                "classId": "fs-js-be-22",
+                "classId": "fs-js-fe-22",
                 "title": "POO no JavaScript",
                 "link": "https://www.youtube.com/watch?v=_RKKKDlqi2Q&pp=ygURcG9vIG5vIGphdmFzY3JpcHQ%3D"
               },
               {
-                "classId": "fs-js-be-23",
+                "classId": "fs-js-fe-23",
                 "title": "Construtor",
                 "link": "https://www.youtube.com/watch?v=z3oVp5m5eqI&pp=ygUdY29uc3RydXRvciB2cyB0aGlzIGphdmFzY3JpcHQ%3D"
               },
               {
-                "classId": "fs-js-be-24",
+                "classId": "fs-js-fe-24",
                 "title": "This",
                 "link": "https://www.youtube.com/watch?v=lnoYgkUc5Wc&pp=ygUdY29uc3RydXRvciB2cyB0aGlzIGphdmFzY3JpcHQ%3D"
               },
               {
-                "classId": "fs-js-be-25",
+                "classId": "fs-js-fe-25",
                 "title": "Programação Funcional - Instância vs This/Construtor/Herança",
                 "link": "https://www.youtube.com/watch?v=XvLMO2wE3OQ"
               }
@@ -160,22 +160,22 @@ export const learningPathsData = [
             "title": "Manipulação de Objetos",
             "classes": [
               {
-                "classId": "fs-js-be-26",
+                "classId": "fs-js-fe-26",
                 "title": "Object: Key, Values e Entries",
                 "link": "https://www.youtube.com/watch?v=VmicKaGcs5g&pp=ygUVb2JqZWN0IGtleSBqYXZhc2NyaXB0"
               },
               {
-                "classId": "fs-js-be-27",
+                "classId": "fs-js-fe-27",
                 "title": "Desestruturação de objetos",
                 "link": "https://www.youtube.com/watch?v=ruoHSuTKp-U&t=12s&pp=ygUfc3ByZWFkIHJlc3Qgb3BlcmF0b3IgamF2YXNjcmlwdA%3D%3D"
               },
               {
-                "classId": "fs-js-be-28",
+                "classId": "fs-js-fe-28",
                 "title": "Spread Operator/Rest Operator",
                 "link": "https://www.youtube.com/watch?v=iLx4ma8ZqvQ&pp=ygUfc3ByZWFkIHJlc3Qgb3BlcmF0b3IgamF2YXNjcmlwdA%3D%3D"
               },
               {
-                "classId": "fs-js-be-29",
+                "classId": "fs-js-fe-29",
                 "title": "Template Strings",
                 "link": "https://www.youtube.com/watch?v=R2PvSZU5xLY&pp=ygUbdGVtcGxhdGUgc3RyaW5ncyBqYXZhc2NyaXB0"
               }
@@ -185,37 +185,37 @@ export const learningPathsData = [
             "title": "Requisições e Assincronismo",
             "classes": [
               {
-                "classId": "fs-js-be-30",
+                "classId": "fs-js-fe-30",
                 "title": "Conceito requisições Web",
                 "link": "http://youtube.com/watch?v=WXsD0ZgxjRw"
               },
               {
-                "classId": "fs-js-be-31",
+                "classId": "fs-js-fe-31",
                 "title": "Conceito JSON",
                 "link": "https://www.youtube.com/watch?v=BWPUSXzSWA8&pp=ygUYbcOpdG9kb3MganNvbiBqYXZhc2NyaXB0"
               },
               {
-                "classId": "fs-js-be-32",
+                "classId": "fs-js-fe-32",
                 "title": "Métodos JSON (JSON.parse/JSON.stringify)",
                 "link": "https://www.youtube.com/watch?v=OfRGJF3dT0o&pp=ygUdanNvbi5wYXJzZSBhbmQganNvbi5zdHJpbmdpZnk%3D"
               },
               {
-                "classId": "fs-js-be-33",
+                "classId": "fs-js-fe-33",
                 "title": "Síncrono vs Assíncrono",
                 "link": "https://www.youtube.com/watch?v=Hegl6BxHDOA&pp=ygUjc8OtbmNyb25vIHZzIGFzc8OtbmNyb25vIGphdmFzY3JpcHQ%3D"
               },
               {
-                "classId": "fs-js-be-34",
+                "classId": "fs-js-fe-34",
                 "title": "Event Loop e Callbacks",
                 "link": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
               },
               {
-                "classId": "fs-js-be-35",
+                "classId": "fs-js-fe-35",
                 "title": "Promises",
                 "link": "https://www.youtube.com/watch?v=nRJhc6vXyK4&pp=ygUTcHJvbWlzZXMgamF2YXNjcmlwdA%3D%3D"
               },
               {
-                "classId": "fs-js-be-36",
+                "classId": "fs-js-fe-36",
                 "title": "Async e Await",
                 "link": "https://www.youtube.com/watch?v=ZYb_ZU8LNxs"
               }
@@ -225,22 +225,22 @@ export const learningPathsData = [
             "title": "Boas Práticas e Clean Code",
             "classes": [
               {
-                "classId": "fs-js-be-37",
+                "classId": "fs-js-fe-37",
                 "title": "Don't Repeat Yourself (DRY)",
                 "link": "https://www.youtube.com/watch?v=uRih-n6jDbw&pp=ygUXY29uY2VpdG8gZHJ5IGphdmFzY3JpcHQ%3D"
               },
               {
-                "classId": "fs-js-be-38",
+                "classId": "fs-js-fe-38",
                 "title": "Nomear variáveis e funções de forma clara",
                 "link": "https://www.youtube.com/watch?v=Rm25zZE8rwc&pp=ygU3Ym9hcyBwcsOhdGljYXMgamF2YXNjcmlwdCBub21lYXIgdmFyacOhdmVpcyBlIGZ1bsOnw7Vlcw%3D%3D"
               },
               {
-                "classId": "fs-js-be-39",
+                "classId": "fs-js-fe-39",
                 "title": "ESLint/Prettier",
                 "link": "https://www.youtube.com/watch?v=mMbCwBkcYW0&pp=ygUjYm9hcyBwcsOhdGljYXMgcmVhdCBlc2xpbnQgcHJldHRpZXI%3D"
               },
               {
-                "classId": "fs-js-be-40",
+                "classId": "fs-js-fe-40",
                 "title": "Conventional/Atomic Commits",
                 "link": "https://www.youtube.com/watch?v=erInHkjxkL8"
               }
@@ -250,22 +250,22 @@ export const learningPathsData = [
             "title": "Testes no FE",
             "classes": [
               {
-                "classId": "fs-js-be-41",
+                "classId": "fs-js-fe-41",
                 "title": "React Testing Library)",
                 "link": "https://www.youtube.com/watch?v=UKCIfwI8DxA&pp=ygUbdGVzdGUgZGUgaW50ZWdyYcOnw6NvIHJlYWN0"
               },
               {
-                "classId": "fs-js-be-42",
+                "classId": "fs-js-fe-42",
                 "title": "Testes de Integração",
                 "link": "https://www.youtube.com/watch?v=CthPfXdQZR0&pp=ygUmdGVzdGUgZGUgaW50ZWdyYcOnw6NvIHBsYXl3cmlnaHQgcmVhY3Q%3D"
               },
               {
-                "classId": "fs-js-be-43",
+                "classId": "fs-js-fe-43",
                 "title": "Testes E2E (Cypress)",
                 "link": "https://www.youtube.com/watch?v=56N0P67ffIA&t=438s&pp=ygUfdGVzdGVzIGUyZSBjb20gY3lwcmVzcyByZWFjdCBqcw%3D%3D"
               },
               {
-                "classId": "fs-js-be-44",
+                "classId": "fs-js-fe-44",
                 "title": "Testes E2E (Playwright)",
                 "link": "https://www.youtube.com/watch?v=3NW0Mz943_E&pp=ygUidGVzdGVzIGUyZSBjb20gcGxheXdyaWdodCByZWFjdCBqcw%3D%3D"
               }
@@ -280,7 +280,7 @@ export const learningPathsData = [
             "title": "Caracteristicas do CSS",
             "classes": [
               {
-                "classId": "fs-js-be-45",
+                "classId": "fs-js-fe-45",
                 "title": "Curso completo de CSS (herança/especificidade/cascata, unidades de medida, inherit, seletores, box model, flexbox/grid, responsividade, animações)",
                 "link": "https://www.youtube.com/watch?v=1Rs2ND1ryYc"
               }
@@ -290,12 +290,12 @@ export const learningPathsData = [
             "title": "Responsibilidade e Mobile First",
             "classes": [
               {
-                "classId": "fs-js-be-46",
+                "classId": "fs-js-fe-46",
                 "title": "Media Queries",
                 "link": "https://www.youtube.com/watch?v=zt5W562mYRo&pp=ygUaY3Vyc28gZGUgbWVkaWEgcXVlcmllcyBjc3M%3D"
               },
               {
-                "classId": "fs-js-be-47",
+                "classId": "fs-js-fe-47",
                 "title": "Viewport meta tag",
                 "link": "https://www.youtube.com/watch?v=SElOdK2qTpI&pp=ygUVdmlld3BvcnQgbWV0YSB0YWcgY3Nz"
               }
@@ -305,7 +305,7 @@ export const learningPathsData = [
             "title": "Animações e Transições",
             "classes": [
               {
-                "classId": "fs-js-be-48",
+                "classId": "fs-js-fe-48",
                 "title": "Efeitos (ex: Hover e afins)",
                 "link": "https://www.youtube.com/watch?v=k3TaSKUNuXs&pp=ygUJaG92ZXIgY3Nz"
               }
@@ -315,7 +315,7 @@ export const learningPathsData = [
             "title": "Variáveis",
             "classes": [
               {
-                "classId": "fs-js-be-49",
+                "classId": "fs-js-fe-49",
                 "title": "Valores Globais",
                 "link": "https://www.youtube.com/watch?v=PVzWaxzY2BU&pp=ygUWdmFsb3JlcyBnbG9iYWlzIG5vIGNzcw%3D%3D"
               }
@@ -325,7 +325,7 @@ export const learningPathsData = [
             "title": "Pré-processadores de CSS",
             "classes": [
               {
-                "classId": "fs-js-be-50",
+                "classId": "fs-js-fe-50",
                 "title": "Saas",
                 "link": "https://www.youtube.com/watch?v=9F8bzIlgJ4g&pp=ygUQc2FzcyBubyByZWFjdCBqcw%3D%3D"
               }
@@ -340,27 +340,27 @@ export const learningPathsData = [
             "title": "Fundamentos do React",
             "classes": [
               {
-                "classId": "fs-js-be-51",
+                "classId": "fs-js-fe-51",
                 "title": "JSX",
                 "link": "https://www.youtube.com/watch?v=9iKNxnFJY_Q&pp=ygUManN4IHJlYWN0IGpz"
               },
               {
-                "classId": "fs-js-be-52",
+                "classId": "fs-js-fe-52",
                 "title": "Componentes",
                 "link": "https://www.youtube.com/watch?v=-wrsG0IGc-M&pp=ygUUY29tcG9uZW50ZXMgcmVhY3QganM%3D"
               },
               {
-                "classId": "fs-js-be-53",
+                "classId": "fs-js-fe-53",
                 "title": "Props e Estado",
                 "link": "https://www.youtube.com/watch?v=vXDoVQrmiBE&pp=ygUXcmVhY3QganMgcHJvcHMgZSBlc3RhZG8%3D"
               },
               {
-                "classId": "fs-js-be-54",
+                "classId": "fs-js-fe-54",
                 "title": "Children como prop",
                 "link": "https://www.youtube.com/watch?v=JpM9hiQTlAk&pp=ugMICgJwdBABGAHKBRJjaGlsZHJlbiBjb21vIHByb3A%3D"
               },
               {
-                "classId": "fs-js-be-55",
+                "classId": "fs-js-fe-55",
                 "title": "Eventos",
                 "link": "https://www.youtube.com/watch?v=uqmRi4JXk3s&pp=ygUTZXZlbnRvcyBubyByZWFjdCBqcw%3D%3D"
               }
@@ -370,22 +370,22 @@ export const learningPathsData = [
             "title": "Hooks",
             "classes": [
               {
-                "classId": "fs-js-be-56",
+                "classId": "fs-js-fe-56",
                 "title": "useState",
                 "link": "https://www.youtube.com/watch?v=keEUn64Ceig&pp=ygURdXNlU3RhdGUgcmVhY3QganPSBwkJfgkBhyohjO8%3D"
               },
               {
-                "classId": "fs-js-be-57",
+                "classId": "fs-js-fe-57",
                 "title": "useEffect",
                 "link": "https://www.youtube.com/watch?v=ojzuilNld1s&pp=ygUjY29tcG9uZW50ZXMgcmV1dGlsaXrDoXZlaXMgcmVhY3QganM%3D"
               },
               {
-                "classId": "fs-js-be-58",
+                "classId": "fs-js-fe-58",
                 "title": "useContext",
                 "link": "https://www.youtube.com/watch?v=_HdrLsyAdJg&pp=ygUTdXNlQ29udGV4dCByZWFjdCBqcw%3D%3D"
               },
               {
-                "classId": "fs-js-be-59",
+                "classId": "fs-js-fe-59",
                 "title": "Criação de Hooks personalizados",
                 "link": "https://www.youtube.com/watch?v=2cTAR3EkvQ8&pp=ygUqY3JpYcOnw6NvIGRlIGhvb2tzIHBlcnNvbmFsaXphZG9zIHJlYWN0IGpz0gcJCX4JAYcqIYzv"
               }
@@ -395,12 +395,12 @@ export const learningPathsData = [
             "title": "Manipulação do Estado Global",
             "classes": [
               {
-                "classId": "fs-js-be-60",
+                "classId": "fs-js-fe-60",
                 "title": "Context API - Quando usar?",
                 "link": "https://www.youtube.com/watch?v=3KUVksNAAxo&pp=ygUXcmVhY3QgcmVkdXggcXVhbmRvIHVzYXI%3D"
               },
               {
-                "classId": "fs-js-be-61",
+                "classId": "fs-js-fe-61",
                 "title": "Redux - Quando usar?",
                 "link": "https://www.youtube.com/watch?v=VMy9Sb0eDHo&pp=ygUecXVhbmRvIHVzYXIgY29udGV4dCBhcGkgcmVhY3Qg0gcJCX4JAYcqIYzv"
               }
@@ -410,7 +410,7 @@ export const learningPathsData = [
             "title": "Estilização de Componentes",
             "classes": [
               {
-                "classId": "fs-js-be-62",
+                "classId": "fs-js-fe-62",
                 "title": "Tailwind CSS",
                 "link": "https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u"
               }
@@ -420,12 +420,12 @@ export const learningPathsData = [
             "title": "Comunicação entre Componentes",
             "classes": [
               {
-                "classId": "fs-js-be-63",
+                "classId": "fs-js-fe-63",
                 "title": "Props",
                 "link": "https://www.youtube.com/watch?v=uvEAvxWvwOs&pp=ygUOcHJvcHMgcmVhY3QganM%3D"
               },
               {
-                "classId": "fs-js-be-64",
+                "classId": "fs-js-fe-64",
                 "title": "Lifting State Up",
                 "link": "https://www.youtube.com/watch?v=qdkW8VxCau0&pp=ygUZbGlmdGluZyBzdGF0ZSB1cCByZWFjdCBqcw%3D%3D"
               }
@@ -435,17 +435,17 @@ export const learningPathsData = [
             "title": "Navegação SPA",
             "classes": [
               {
-                "classId": "fs-js-be-65",
+                "classId": "fs-js-fe-65",
                 "title": "React Router",
                 "link": "https://www.youtube.com/watch?v=p_MEEFIBTps&pp=ygUgcmVhY3Qgcm91dGVyIGUgcm90YXMgbm8gcmVhY3QganPSBwkJfgkBhyohjO8%3D"
               },
               {
-                "classId": "fs-js-be-66",
+                "classId": "fs-js-fe-66",
                 "title": "useParams",
                 "link": "https://www.youtube.com/watch?v=4nokchOHx8A"
               },
               {
-                "classId": "fs-js-be-67",
+                "classId": "fs-js-fe-67",
                 "title": "Intersection Observer (Scroll Infinito)",
                 "link": "https://www.youtube.com/watch?v=2IbRtjez6ag"
               }
@@ -455,22 +455,22 @@ export const learningPathsData = [
             "title": "Boas Práticas e Clean Code",
             "classes": [
               {
-                "classId": "fs-js-be-68",
+                "classId": "fs-js-fe-68",
                 "title": "Organizar o código em componentes reutilizáveis",
                 "link": "https://www.youtube.com/watch?v=uY8t-isw5nY&pp=ygUjY29tcG9uZW50ZXMgcmV1dGlsaXrDoXZlaXMgcmVhY3QganM%3D"
               },
               {
-                "classId": "fs-js-be-69",
+                "classId": "fs-js-fe-69",
                 "title": "Evitar estados desnecessários e re-renderizações",
                 "link": "https://www.youtube.com/watch?v=nJOca650HKs&t=2s&pp=ygU5ZXZpdGFyIGVzdGFkb3MgZGVzbmVjZXNzw6FyaW9zIHJlLXJlbmRlcml6YcOnw6NvIHJlYWN0IGpz"
               },
               {
-                "classId": "fs-js-be-70",
+                "classId": "fs-js-fe-70",
                 "title": "Clean Code",
                 "link": "https://www.youtube.com/watch?v=Mv0-vgC4RE8&pp=ygUkYm9hcyBwcsOhdGljYXMgZSBjbGVhbiBjb2RlIHJlYWN0IGpz"
               },
               {
-                "classId": "fs-js-be-71",
+                "classId": "fs-js-fe-71",
                 "title": "Estrutura de pastas para projetos React",
                 "link": "https://www.youtube.com/watch?v=vH-Y00nHCac"
               }
@@ -480,12 +480,12 @@ export const learningPathsData = [
             "title": "Testes",
             "classes": [
               {
-                "classId": "fs-js-be-72",
+                "classId": "fs-js-fe-72",
                 "title": "Testes unitários com Jest + React Testing Library",
                 "link": "https://www.youtube.com/watch?v=p1bjHvX-DqM&pp=ygUfdGVzdGVzIHVuaXTDoXJpb3MgamVzdCByZWFjdCBqcw%3D%3D"
               },
               {
-                "classId": "fs-js-be-73",
+                "classId": "fs-js-fe-73",
                 "title": "Simulação de eventos com fireEvent",
                 "link": "https://www.youtube.com/watch?v=0Y11K7KSC80&pp=ugMICgJwdBABGAHKBS1yZWFjdCBqcyBzaW11bGHDp8OjbyBkZSBldmVudG9zIGNvbSBmaXJlRXZlbnQ%3D"
               }
@@ -500,7 +500,7 @@ export const learningPathsData = [
             "title": "Curso completo de Tailwind",
             "classes": [
               {
-                "classId": "fs-js-be-74",
+                "classId": "fs-js-fe-74",
                 "title": "Curso completo de CSS (cores, espaçamento, bordas, flexbox, grid, responsividade, animações)",
                 "link": "https://www.youtube.com/watch?v=1Rs2ND1ryYc"
               }
@@ -510,7 +510,7 @@ export const learningPathsData = [
             "title": "Responsividade com Tailwind",
             "classes": [
               {
-                "classId": "fs-js-be-75",
+                "classId": "fs-js-fe-75",
                 "title": "Prefixos de breakpoints (sm, md, lg, xl)",
                 "link": "https://www.youtube.com/watch?v=1287-96sMuk&pp=ygUkdGFpbHdpbmQgY3NzIHByZWZpeG9zIGRlIGJyZWFrcG9pbnQg"
               }
@@ -520,7 +520,7 @@ export const learningPathsData = [
             "title": "Customização e Temas",
             "classes": [
               {
-                "classId": "fs-js-be-76",
+                "classId": "fs-js-fe-76",
                 "title": "Cores customizadas e Dark Mode",
                 "link": "https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u"
               }
@@ -530,7 +530,7 @@ export const learningPathsData = [
             "title": "Componentização com @apply",
             "classes": [
               {
-                "classId": "fs-js-be-77",
+                "classId": "fs-js-fe-77",
                 "title": "Aula - @apply",
                 "link": "https://www.youtube.com/watch?v=TrftauE2Vyk&pp=ugMICgJwdBABGAHKBSdjb21wb25ldGl6YcOnw6NvIGNvbSBhcHBseSB0YWlsd2luZCBjc3M%3D"
               }
@@ -540,7 +540,7 @@ export const learningPathsData = [
             "title": "Animações e Transições",
             "classes": [
               {
-                "classId": "fs-js-be-78",
+                "classId": "fs-js-fe-78",
                 "title": "Transition/Hover/Active ",
                 "link": "https://www.youtube.com/watch?v=5_BPDve5-3M&pp=ygUndHJhbnNpdGlvbiBob3ZlciBhY3RpdmUgbm8gdGFpbHdpbmQgY3Nz"
               }
@@ -555,7 +555,7 @@ export const learningPathsData = [
             "title": "Fetch API/Axios | Async/Await em requisições assíncronas",
             "classes": [
               {
-                "classId": "fs-js-be-79",
+                "classId": "fs-js-fe-79",
                 "title": "Aula",
                 "link": "https://www.youtube.com/watch?v=P1Mm-gTi5i8&list=PL3B-OV5dZTqbaLi1f2UmXEWbcx9WyYaTX&index=1"
               }
@@ -565,7 +565,7 @@ export const learningPathsData = [
             "title": "Gerenciamento de estado global (Redux)",
             "classes": [
               {
-                "classId": "fs-js-be-80",
+                "classId": "fs-js-fe-80",
                 "title": "Aula",
                 "link": "https://www.youtube.com/watch?v=7YBTbYIGzAk&pp=ygUkZ2VyZW5jaWFtZW50byBkZSBlc3RhZG8gZ2xvYmFsIHJlZHV4"
               }
@@ -575,7 +575,7 @@ export const learningPathsData = [
             "title": "Gerenciamento de estado global (Zustand)",
             "classes": [
               {
-                "classId": "fs-js-be-81",
+                "classId": "fs-js-fe-81",
                 "title": "Aula",
                 "link": "https://www.youtube.com/watch?v=nU662dfFfw4&pp=ygUjZ2VyZW5jaWFtZW50byBkZSBlc3RhZG8gcmVhY3QgcXVlcnk%3D"
               }
@@ -585,7 +585,7 @@ export const learningPathsData = [
             "title": "Gerenciamento de estado global (React Query)",
             "classes": [
               {
-                "classId": "fs-js-be-82",
+                "classId": "fs-js-fe-82",
                 "title": "Aula",
                 "link": "https://www.youtube.com/watch?v=4JLPR8prndw&pp=ygUmY29tbyBnZXJlbmNpYXIgZXN0YWRvcyBjb20gcmVhY3QgcXVlcnnSBwkJfgkBhyohjO8%3D"
               }
@@ -595,7 +595,7 @@ export const learningPathsData = [
             "title": "Tratamento de erros e exibição de mensagens ao usuário",
             "classes": [
               {
-                "classId": "fs-js-be-83",
+                "classId": "fs-js-fe-83",
                 "title": "Aula",
                 "link": "https://www.youtube.com/watch?v=vfwbOgpSvQA&pp=ygU2dHJhdGFtZW50byBkZSBlcnJvcyBlIGV4aWJpw6fDo28gZGUgbWVuc2FnZW5zIHJlYWN0IGpz0gcJCX4JAYcqIYzv"
               }
@@ -610,7 +610,7 @@ export const learningPathsData = [
             "title": "Curso completo (tipos básicos, funções, interfaces e tipos personalizados, union e aliases, ts com classes e generics)",
             "classes": [
               {
-                "classId": "fs-js-be-84",
+                "classId": "fs-js-fe-84",
                 "title": "Aula",
                 "link": "https://www.youtube.com/watch?v=30LWjhZzg50"
               }
@@ -625,22 +625,22 @@ export const learningPathsData = [
             "title": "Fundamentos",
             "classes": [
               {
-                "classId": "fs-js-be-85",
+                "classId": "fs-js-fe-85",
                 "title": "Criando um Servidor HTTP com NodeJS e Express | Middleware | Manipulação de JSON e Body | Banco de Dados (MongoDB e MySQL) | Variáveis de Ambiente",
                 "link": "https://www.youtube.com/watch?v=IOfDoyP1Aq0"
               },
               {
-                "classId": "fs-js-be-86",
+                "classId": "fs-js-fe-86",
                 "title": "Rotas e Parâmetros (GET, POST, PUT, DELETE)",
                 "link": "https://www.youtube.com/watch?v=-BbWowF82yY"
               },
               {
-                "classId": "fs-js-be-87",
+                "classId": "fs-js-fe-87",
                 "title": "Autenticação e Segurança Básica - JWT",
                 "link": "https://www.youtube.com/watch?v=D0gpL8-DVrc"
               },
               {
-                "classId": "fs-js-be-88",
+                "classId": "fs-js-fe-88",
                 "title": "Trabalhar com APIs Externas com requisições HTTP",
                 "link": "https://www.youtube.com/watch?v=dpKzIxUeFAE"
               }
@@ -655,12 +655,12 @@ export const learningPathsData = [
             "title": "Fundamentos do Python",
             "classes": [
               {
-                "classId": "fs-js-be-89",
+                "classId": "fs-js-fe-89",
                 "title": "Aula (sintaxe, funções e módulos, manipulação de listas, dicionários e conjuntos, POO no Python)",
                 "link": "https://www.youtube.com/watch?v=placeholder"
               },
               {
-                "classId": "fs-js-be-90",
+                "classId": "fs-js-fe-90",
                 "title": "Tratamento de erros",
                 "link": "https://www.youtube.com/watch?v=xz2B3bfNjEk"
               }
@@ -670,47 +670,47 @@ export const learningPathsData = [
             "title": "Básico",
             "classes": [
               {
-                "classId": "fs-js-be-91",
+                "classId": "fs-js-fe-91",
                 "title": "Criar um Servidor Web com Flask",
                 "link": "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
               },
               {
-                "classId": "fs-js-be-92",
+                "classId": "fs-js-fe-92",
                 "title": "Criar APIs RESTful com FastAPI/Flask",
                 "link": "https://www.youtube.com/watch?v=R26iojTwUv8"
               },
               {
-                "classId": "fs-js-be-93",
+                "classId": "fs-js-fe-93",
                 "title": "Trabalhar com DB - PostgreSQL/MySQL",
                 "link": "https://www.youtube.com/watch?v=pDBnCDuL-dc&list=PLucm8g_ezqNp7ECP-fidzdgeVDufBTYDV"
               },
               {
-                "classId": "fs-js-be-94",
+                "classId": "fs-js-fe-94",
                 "title": "SQLAlchemy Lib",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
-                "classId": "fs-js-be-95",
+                "classId": "fs-js-fe-95",
                 "title": "MongoDB",
                 "link": "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
               },
               {
-                "classId": "fs-js-be-96",
+                "classId": "fs-js-fe-96",
                 "title": "Autenticação e Segurança com JWT",
                 "link": "https://www.youtube.com/watch?v=iO9UAFt4ibs"
               },
               {
-                "classId": "fs-js-be-97",
+                "classId": "fs-js-fe-97",
                 "title": "Trabalhar com Arquivos e Uploads",
                 "link": "https://youtu.be/oKtJdsFfNnI"
               },
               {
-                "classId": "fs-js-be-98",
+                "classId": "fs-js-fe-98",
                 "title": "Variáveis de Ambiente",
                 "link": "https://youtu.be/-PydAYt22kc"
               },
               {
-                "classId": "fs-js-be-99",
+                "classId": "fs-js-fe-99",
                 "title": "Trabalhar com APIs Externas com requisições HTTP",
                 "link": "https://www.youtube.com/watch?v=bC_aA3Tshgs"
               }
@@ -725,12 +725,12 @@ export const learningPathsData = [
             "title": "Básico de API",
             "classes": [
               {
-                "classId": "fs-js-be-100",
+                "classId": "fs-js-fe-100",
                 "title": "Criar APIs usando Node.js (Express/NestJS)",
                 "link": "https://www.youtube.com/watch?v=Q9oVStZ1DJA"
               },
               {
-                "classId": "fs-js-be-101",
+                "classId": "fs-js-fe-101",
                 "title": "Estruturar rotas usando métodos HTTP | Respost com JSON seguindo boas práticas | Middleware para auth",
                 "link": "https://www.youtube.com/watch?v=IOfDoyP1Aq0"
               }
@@ -740,22 +740,22 @@ export const learningPathsData = [
             "title": "Tipos de API",
             "classes": [
               {
-                "classId": "fs-js-be-102",
+                "classId": "fs-js-fe-102",
                 "title": "RESTful",
                 "link": "http://www.youtube.com/watch?v=ycIxWTEI908"
               },
               {
-                "classId": "fs-js-be-103",
+                "classId": "fs-js-fe-103",
                 "title": "GraphQL",
                 "link": "https://www.youtube.com/watch?v=0MfMYPvimYo"
               },
               {
-                "classId": "fs-js-be-104",
+                "classId": "fs-js-fe-104",
                 "title": "gRPC",
                 "link": "https://www.youtube.com/watch?v=F4t3ZBVMlvo"
               },
               {
-                "classId": "fs-js-be-105",
+                "classId": "fs-js-fe-105",
                 "title": "Mensageria",
                 "link": "https://www.youtube.com/watch?v=qOqXz5Qv_-8"
               }
@@ -765,27 +765,27 @@ export const learningPathsData = [
             "title": "Autenticação e Segurança",
             "classes": [
               {
-                "classId": "fs-js-be-106",
+                "classId": "fs-js-fe-106",
                 "title": "JSON Web Token (JWT)",
                 "link": "https://www.youtube.com/watch?v=XYjOteYbCMo"
               },
               {
-                "classId": "fs-js-be-107",
+                "classId": "fs-js-fe-107",
                 "title": "OAuth 2.0",
                 "link": "https://www.youtube.com/watch?v=X4mtsWfhNzw"
               },
               {
-                "classId": "fs-js-be-108",
+                "classId": "fs-js-fe-108",
                 "title": "C.O.R.S - Cross-Origin Resource Sharing",
                 "link": "https://www.youtube.com/watch?v=4KHiSt0oLJ0"
               },
               {
-                "classId": "fs-js-be-109",
+                "classId": "fs-js-fe-109",
                 "title": "Proteção contra SQL Injection/XSS/CSRF",
                 "link": "https://www.youtube.com/watch?v=pdC3H8SX-F4"
               },
               {
-                "classId": "fs-js-be-110",
+                "classId": "fs-js-fe-110",
                 "title": "Rate Limiting e API Keys",
                 "link": "http://www.youtube.com/watch?v=ryXn73SV6xw"
               }
@@ -795,32 +795,32 @@ export const learningPathsData = [
             "title": "Integração APIs Externas",
             "classes": [
               {
-                "classId": "fs-js-be-111",
+                "classId": "fs-js-fe-111",
                 "title": "Como integrar com qualquer API",
                 "link": "https://www.youtube.com/watch?v=03SowZOSK3c"
               },
               {
-                "classId": "fs-js-be-112",
+                "classId": "fs-js-fe-112",
                 "title": "Pagamentos (Stripe/Paypal)",
                 "link": "https://www.youtube.com/watch?v=3OOHC_UzrKA"
               },
               {
-                "classId": "fs-js-be-113",
+                "classId": "fs-js-fe-113",
                 "title": "Mensageria(Twilio/Sendgrid)",
                 "link": "https://www.youtube.com/watch?v=b-l9aEu_CWY"
               },
               {
-                "classId": "fs-js-be-114",
+                "classId": "fs-js-fe-114",
                 "title": "IA (OpenAI)",
                 "link": "https://www.youtube.com/watch?v=9PMkamWLuXs"
               },
               {
-                "classId": "fs-js-be-115",
+                "classId": "fs-js-fe-115",
                 "title": "Mapas (Google Maps)",
                 "link": "http://www.youtube.com/watch?v=5gXBCWmFuq8"
               },
               {
-                "classId": "fs-js-be-116",
+                "classId": "fs-js-fe-116",
                 "title": "Clima (OpenWeather)",
                 "link": "http://www.youtube.com/watch?v=J24vzfwA55Q"
               }
@@ -830,17 +830,17 @@ export const learningPathsData = [
             "title": "Documentação e Testes de APIs",
             "classes": [
               {
-                "classId": "fs-js-be-117",
+                "classId": "fs-js-fe-117",
                 "title": "Documentação (Swagger/OpenAPI)",
                 "link": "https://www.youtube.com/watch?v=4AdvGglL0wY"
               },
               {
-                "classId": "fs-js-be-118",
+                "classId": "fs-js-fe-118",
                 "title": "Testes (Postman/Insomnia)",
                 "link": "https://www.youtube.com/watch?v=02W0kNO-Uvo"
               },
               {
-                "classId": "fs-js-be-119",
+                "classId": "fs-js-fe-119",
                 "title": "Testes automatizados (Jest/Supertest)",
                 "link": "http://www.youtube.com/watch?v=L9rHlPtNi3g"
               }
@@ -855,7 +855,7 @@ export const learningPathsData = [
             "title": "MVC (Model-View-Controller)",
             "classes": [
               {
-                "classId": "fs-js-be-120",
+                "classId": "fs-js-fe-120",
                 "title": "Aula - MVC",
                 "link": "http://www.youtube.com/watch?v=bQuBlR0T5cc"
               }
@@ -865,7 +865,7 @@ export const learningPathsData = [
             "title": "Singleton",
             "classes": [
               {
-                "classId": "fs-js-be-121",
+                "classId": "fs-js-fe-121",
                 "title": "Aula - Singleton",
                 "link": "http://www.youtube.com/watch?v=yimeXZ1twWs"
               }
@@ -875,7 +875,7 @@ export const learningPathsData = [
             "title": "Factory",
             "classes": [
               {
-                "classId": "fs-js-be-122",
+                "classId": "fs-js-fe-122",
                 "title": "Aula - Factory",
                 "link": "http://www.youtube.com/watch?v=K5OFFjCwp14"
               }
@@ -885,7 +885,7 @@ export const learningPathsData = [
             "title": "Observer",
             "classes": [
               {
-                "classId": "fs-js-be-123",
+                "classId": "fs-js-fe-123",
                 "title": "Aula - Observer",
                 "link": "http://www.youtube.com/watch?v=ioYkXh8NhKc"
               }
@@ -900,17 +900,17 @@ export const learningPathsData = [
             "title": "Monolito",
             "classes": [
               {
-                "classId": "fs-js-be-124",
+                "classId": "fs-js-fe-124",
                 "title": "Conceitos",
                 "link": "https://www.youtube.com/watch?v=CsrHHHPHKwE"
               },
               {
-                "classId": "fs-js-be-125",
+                "classId": "fs-js-fe-125",
                 "title": "Vantagens vs Desvantagens",
                 "link": "https://www.youtube.com/watch?v=7q88mxc5uQw"
               },
               {
-                "classId": "fs-js-be-126",
+                "classId": "fs-js-fe-126",
                 "title": "Arquitetura Monolítica",
                 "link": "https://www.youtube.com/watch?v=KBmWI1e_voc"
               }
@@ -920,17 +920,17 @@ export const learningPathsData = [
             "title": "Microserviços",
             "classes": [
               {
-                "classId": "fs-js-be-127",
+                "classId": "fs-js-fe-127",
                 "title": "Conceito",
                 "link": "https://www.youtube.com/watch?v=lL_j7ilk7rc"
               },
               {
-                "classId": "fs-js-be-128",
+                "classId": "fs-js-fe-128",
                 "title": "Vantagens vs Desvantagens",
                 "link": "https://www.youtube.com/watch?v=LalJrdZ0nlo"
               },
               {
-                "classId": "fs-js-be-129",
+                "classId": "fs-js-fe-129",
                 "title": "Arquitetura Microserviços",
                 "link": "https://www.youtube.com/watch?v=KBmWI1e_voc"
               }
@@ -945,17 +945,17 @@ export const learningPathsData = [
             "title": "Performance no Frontend",
             "classes": [
               {
-                "classId": "fs-js-be-130",
+                "classId": "fs-js-fe-130",
                 "title": "Otimização de carregamento de páginas (Lazy Loading & Code Splitting)",
                 "link": "https://www.youtube.com/watch?v=p9dvIOQz-0U"
               },
               {
-                "classId": "fs-js-be-131",
+                "classId": "fs-js-fe-131",
                 "title": "Uso de CDN para distribuir assets estático",
                 "link": "https://www.youtube.com/watch?v=gb1SfY7u118"
               },
               {
-                "classId": "fs-js-be-132",
+                "classId": "fs-js-fe-132",
                 "title": "Evitar re-renders desnecessários (ex:useMemo, useCallback)",
                 "link": "https://www.youtube.com/watch?v=nJOca650HKs"
               }
@@ -965,32 +965,32 @@ export const learningPathsData = [
             "title": "Performance no Backend",
             "classes": [
               {
-                "classId": "fs-js-be-133",
+                "classId": "fs-js-fe-133",
                 "title": "Otimização de consultas no banco de dados",
                 "link": "https://www.youtube.com/watch?v=BHwzDmr6d7s"
               },
               {
-                "classId": "fs-js-be-134",
+                "classId": "fs-js-fe-134",
                 "title": "Uso de índices no SQL",
                 "link": "https://www.youtube.com/watch?v=j1n6NX11-G4"
               },
               {
-                "classId": "fs-js-be-135",
+                "classId": "fs-js-fe-135",
                 "title": "Evitar N+1 queries em ORMs como Prisma",
                 "link": "https://www.youtube.com/watch?v=lptxhwzJK1g"
               },
               {
-                "classId": "fs-js-be-136",
+                "classId": "fs-js-fe-136",
                 "title": "Uso de caching (Redis ou Memcached)",
                 "link": "http://www.youtube.com/watch?v=QqTB97aMa4c"
               },
               {
-                "classId": "fs-js-be-137",
+                "classId": "fs-js-fe-137",
                 "title": "Uso de Lazy Loading",
                 "link": "https://www.youtube.com/watch?v=U8wffcXm-TM"
               },
               {
-                "classId": "fs-js-be-138",
+                "classId": "fs-js-fe-138",
                 "title": "Processamento assíncrono e filas de mensagens",
                 "link": "http://www.youtube.com/watch?v=CxTTt0zuXuU"
               }
@@ -1000,7 +1000,7 @@ export const learningPathsData = [
             "title": "Scalability",
             "classes": [
               {
-                "classId": "fs-js-be-139",
+                "classId": "fs-js-fe-139",
                 "title": "Conceitos de Escalabilidade Vertical vs Horizontal vs Load Balancers",
                 "link": "https://www.youtube.com/watch?v=F2FmTdLtb_4"
               }
@@ -1010,12 +1010,12 @@ export const learningPathsData = [
             "title": "Monitoramento e Análise",
             "classes": [
               {
-                "classId": "fs-js-be-140",
+                "classId": "fs-js-fe-140",
                 "title": "Utilizando Lighthouse/Google PageSpeed (Frontend)",
                 "link": "https://www.youtube.com/watch?v=0fONene3OIA"
               },
               {
-                "classId": "fs-js-be-141",
+                "classId": "fs-js-fe-141",
                 "title": "Utilizando Datadog/AWS CloudWatch (Backend)",
                 "link": "https://www.youtube.com/watch?v=7RkgbcsK5C0"
               }
@@ -1030,22 +1030,22 @@ export const learningPathsData = [
             "title": "Deploy de Aplicações",
             "classes": [
               {
-                "classId": "fs-js-be-142",
+                "classId": "fs-js-fe-142",
                 "title": "EC2(Criar e gerenciar servidores virtuais)",
                 "link": "https://www.youtube.com/watch?v=MDJdYQeCyo0"
               },
               {
-                "classId": "fs-js-be-143",
+                "classId": "fs-js-fe-143",
                 "title": "AWS Lambda (Funções Serverless)",
                 "link": "https://www.youtube.com/watch?v=RCK9fBwrZeY"
               },
               {
-                "classId": "fs-js-be-144",
+                "classId": "fs-js-fe-144",
                 "title": "S3 (Armazenamento de arquivos estáticos)",
                 "link": "https://www.youtube.com/watch?v=ypmr4vkwCKo"
               },
               {
-                "classId": "fs-js-be-145",
+                "classId": "fs-js-fe-145",
                 "title": "Proxy Reverso",
                 "link": "https://www.youtube.com/watch?v=ET2dPE15U9w"
               }
@@ -1055,12 +1055,12 @@ export const learningPathsData = [
             "title": "DB & Armazenamento",
             "classes": [
               {
-                "classId": "fs-js-be-146",
+                "classId": "fs-js-fe-146",
                 "title": "RDS (Banco SQL gerenciado)",
                 "link": "https://www.youtube.com/watch?v=9B_9YxEGOaY"
               },
               {
-                "classId": "fs-js-be-147",
+                "classId": "fs-js-fe-147",
                 "title": "DynamoDB (NoSQL escalável)",
                 "link": "https://www.youtube.com/watch?v=2k2GINpO308"
               }
@@ -1070,12 +1070,12 @@ export const learningPathsData = [
             "title": "Segurança",
             "classes": [
               {
-                "classId": "fs-js-be-148",
+                "classId": "fs-js-fe-148",
                 "title": "IAM (Identity and Access Management)",
                 "link": "https://www.youtube.com/watch?v=spUlvo0HNFQ"
               },
               {
-                "classId": "fs-js-be-149",
+                "classId": "fs-js-fe-149",
                 "title": "Security Groups",
                 "link": "https://www.youtube.com/watch?v=vPnnW0O7-lE"
               }
@@ -1085,12 +1085,12 @@ export const learningPathsData = [
             "title": "CI/CD e Logs",
             "classes": [
               {
-                "classId": "fs-js-be-150",
+                "classId": "fs-js-fe-150",
                 "title": "CodePipeline + CodeDeploy",
                 "link": "https://www.youtube.com/watch?v=bCVpW8zlf4k"
               },
               {
-                "classId": "fs-js-be-151",
+                "classId": "fs-js-fe-151",
                 "title": "CloudWatch( Monitoramento de serviços e logs)",
                 "link": "https://www.youtube.com/watch?v=VeJxXbIsSls"
               }
@@ -1105,22 +1105,22 @@ export const learningPathsData = [
             "title": "Versionamento e Integração Contínua (CI)",
             "classes": [
               {
-                "classId": "fs-js-be-152",
+                "classId": "fs-js-fe-152",
                 "title": "Estratégias de branch(main/master/dev/feature branches)",
                 "link": "https://www.youtube.com/watch?v=0awkwn-YkVk"
               },
               {
-                "classId": "fs-js-be-153",
+                "classId": "fs-js-fe-153",
                 "title": "PR & Code Review",
                 "link": "https://www.youtube.com/watch?v=3wr0G5jz7_o"
               },
               {
-                "classId": "fs-js-be-154",
+                "classId": "fs-js-fe-154",
                 "title": "Configuração de pipelines (Será que é necessário?)",
                 "link": "https://www.youtube.com/watch?v=BVE9En1lIx8"
               },
               {
-                "classId": "fs-js-be-155",
+                "classId": "fs-js-fe-155",
                 "title": "Testes Automatizados (testes unitários e testes de integração) ",
                 "link": "https://www.youtube.com/watch?v=IFzl5yWjbb4"
               }
@@ -1130,12 +1130,12 @@ export const learningPathsData = [
             "title": "Automação de Deploys (CD)",
             "classes": [
               {
-                "classId": "fs-js-be-156",
+                "classId": "fs-js-fe-156",
                 "title": "Deploy de aplicações frontend (Ex: React)",
                 "link": "https://www.youtube.com/watch?v=0iWOynMAYio"
               },
               {
-                "classId": "fs-js-be-157",
+                "classId": "fs-js-fe-157",
                 "title": "Deploy de aplicações backend (Ex: Node.js)",
                 "link": "https://www.youtube.com/watch?v=KwbiS7lOtt0"
               }
@@ -1145,17 +1145,17 @@ export const learningPathsData = [
             "title": "Infra as Code (IaC)",
             "classes": [
               {
-                "classId": "fs-js-be-158",
+                "classId": "fs-js-fe-158",
                 "title": "Docker Básico",
                 "link": "https://www.youtube.com/watch?v=Kzcz-EVKBEQ"
               },
               {
-                "classId": "fs-js-be-159",
+                "classId": "fs-js-fe-159",
                 "title": "Terraform Básico",
                 "link": "https://www.youtube.com/watch?v=b7vbsx-pPJg"
               },
               {
-                "classId": "fs-js-be-160",
+                "classId": "fs-js-fe-160",
                 "title": "AWS CloudFormation",
                 "link": "https://www.youtube.com/watch?v=2gT1dvbppg8"
               }
@@ -1170,12 +1170,12 @@ export const learningPathsData = [
             "title": "Fundamentos",
             "classes": [
               {
-                "classId": "fs-js-be-161",
+                "classId": "fs-js-fe-161",
                 "title": "Monolito vs Arquitetura Distribuída",
                 "link": "http://www.youtube.com/watch?v=a_MtZtAmrpE"
               },
               {
-                "classId": "fs-js-be-162",
+                "classId": "fs-js-fe-162",
                 "title": "Conceitos de escalabilidade, performance e resilência",
                 "link": "http://www.youtube.com/watch?v=HNeww3nlE-k"
               }
@@ -1185,22 +1185,22 @@ export const learningPathsData = [
             "title": "Padrões",
             "classes": [
               {
-                "classId": "fs-js-be-163",
+                "classId": "fs-js-fe-163",
                 "title": "Atomic Design",
                 "link": "https://www.youtube.com/watch?v=uX2bc-irFLI&pp=ygUjc3lzdGVtIGRlc2lnbiBhdG9taWMgZGVzaWduIHBhdHRlcm4%3D"
               },
               {
-                "classId": "fs-js-be-164",
+                "classId": "fs-js-fe-164",
                 "title": "Composition Pattern",
                 "link": "https://www.youtube.com/watch?v=ZCNQ7xsed58&pp=ygUhc3lzdGVtIGRlc2lnbiBjb21wb3NpdGlvbiBwYXR0ZXJu"
               },
               {
-                "classId": "fs-js-be-165",
+                "classId": "fs-js-fe-165",
                 "title": "High-Order Components (HOC)",
                 "link": "https://www.youtube.com/watch?v=ZCNQ7xsed58&pp=ygUhc3lzdGVtIGRlc2lnbiBjb21wb3NpdGlvbiBwYXR0ZXJu"
               },
               {
-                "classId": "fs-js-be-166",
+                "classId": "fs-js-fe-166",
                 "title": "Compound Components (Ex: ShadCN)",
                 "link": "https://www.youtube.com/watch?v=N_WgBU3S9W8&pp=ygUhc3lzdGVtIGRlc2lnbiBjb21wb3VuZCBjb21wb25lbnRz"
               }
@@ -1210,17 +1210,17 @@ export const learningPathsData = [
             "title": "Arquitetura Cliente-Servidor",
             "classes": [
               {
-                "classId": "fs-js-be-167",
+                "classId": "fs-js-fe-167",
                 "title": "Requisição HTTP (Como funciona?)",
                 "link": "https://www.youtube.com/watch?v=F2FmTdLtb_4"
               },
               {
-                "classId": "fs-js-be-168",
+                "classId": "fs-js-fe-168",
                 "title": "Frontend vs Backend vs DB",
                 "link": "https://www.youtube.com/watch?v=F2FmTdLtb_4"
               },
               {
-                "classId": "fs-js-be-169",
+                "classId": "fs-js-fe-169",
                 "title": "APIs RESTful e GraphQL",
                 "link": "https://www.youtube.com/watch?v=yWzKJPw_VzM"
               }
@@ -1230,22 +1230,22 @@ export const learningPathsData = [
             "title": "DB - SQL vs NoSQL",
             "classes": [
               {
-                "classId": "fs-js-be-170",
+                "classId": "fs-js-fe-170",
                 "title": "Quando usar SQL (PostgreSQL, MySQL) vs NoSQL (MongoDB, DynamoDB)",
                 "link": "https://www.youtube.com/watch?v=--s6RQ3Me3A"
               },
               {
-                "classId": "fs-js-be-171",
+                "classId": "fs-js-fe-171",
                 "title": "Conceitos de normalização",
                 "link": "https://youtu.be/NpG1Xt8LB_c?si=Qqqugh-3UrapvtrR"
               },
               {
-                "classId": "fs-js-be-172",
+                "classId": "fs-js-fe-172",
                 "title": "Conceitos de índices",
                 "link": "https://www.youtube.com/watch?v=F5Ak31ToOjo"
               },
               {
-                "classId": "fs-js-be-173",
+                "classId": "fs-js-fe-173",
                 "title": "Conceitos de JOINs",
                 "link": "https://www.youtube.com/watch?v=165r4qUvp8Q"
               }
@@ -1255,12 +1255,12 @@ export const learningPathsData = [
             "title": "Cache e Performance",
             "classes": [
               {
-                "classId": "fs-js-be-174",
+                "classId": "fs-js-fe-174",
                 "title": "Conceito de cache (Como ele melhora a performance) | CDN",
                 "link": "https://www.youtube.com/watch?v=F2FmTdLtb_4"
               },
               {
-                "classId": "fs-js-be-175",
+                "classId": "fs-js-fe-175",
                 "title": "Processamento síncrono vs Assíncrono",
                 "link": "https://www.youtube.com/watch?v=qq4QybnjM6I"
               }
@@ -1270,17 +1270,17 @@ export const learningPathsData = [
             "title": "Segurança",
             "classes": [
               {
-                "classId": "fs-js-be-176",
+                "classId": "fs-js-fe-176",
                 "title": "Conceitos de autenticação e autorização (JWT)",
                 "link": "https://www.youtube.com/watch?v=Gyq-yeot8qM"
               },
               {
-                "classId": "fs-js-be-177",
+                "classId": "fs-js-fe-177",
                 "title": "Conceitos de autenticação e autorização (OAuth)",
                 "link": "https://www.youtube.com/watch?v=z-RuvnMlw34"
               },
               {
-                "classId": "fs-js-be-178",
+                "classId": "fs-js-fe-178",
                 "title": "Proteção de ameaças como SQL Injection",
                 "link": "https://www.youtube.com/watch?v=pdC3H8SX-F4"
               }
