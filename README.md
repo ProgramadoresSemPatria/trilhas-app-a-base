@@ -1,54 +1,145 @@
-# React + TypeScript + Vite
+# 🚀 Learning Paths App - A Base
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Introduction
 
-Currently, two official plugins are available:
+This application is designed to deliver a complete **Learning Paths** experience for users enrolled in the 'A Base' mentorship with online courses. It allows users to view structured courses, track their progress (including marking classes as completed), and manage their access through a simple and intuitive interface. Authentication is handled by Firebase, and the state of user progress is saved locally.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Learning Paths:** 
+- Full Stack JavaScript Front End Wise
+- Full Stack JavaScript Back End Wise
+- Back End Node.js
+- Full Stack Python Back End Wise
+- Back End Python
+- Data Science
+- Data Engineering
+- Artificial Intelligence
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📑 Table of Contents
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Deployed Version](#-deployed-version)
+- [Contact](#-contact)
+
+---
+
+## ✅ Features
+
+- 🔐 **Authentication** with Google using Firebase Auth (admin) and checking if email is registered (students)
+- 🎓 **View Learning Paths**, including multiple courses, modules, and classes  
+- ✅ **Mark Classes as Completed** with persistent state via Local Storage  
+- 📊 **Progress Tracking** with animated progress bars  
+- ⚙️ **Admin and Student Mode** switch with session control  
+- ⚡ **Fast Development Setup** with Vite + Tailwind CSS  
+- 📦 **State Management** using Context API + React Query  
+
+---
+
+## 🛠 Technologies Used
+
+- **React** – Component-based UI  
+- **TypeScript** – Static typing  
+- **Context API** – Global state management  
+- **Firebase** – Auth and Realtime Database  
+- **Tailwind CSS** – Utility-first styling  
+- **React Query** – Data fetching and caching  
+- **Vite** – Fast bundler  
+
+---
+
+## 📥 Installation
+
+Before you start, make sure you have `Node.js` and `npm` installed and.
+
+1. **Clone the repository**:
+
+```
+git clone https://github.com/ProgramadoresSemPatria/trilhas-app-a-base.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Navigate to the frontend directory**:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+cd trilhas-app-a-base
+```
+
+3. **Install dependencies**:
+
+```
+npm install
+```
+
+4. **Run the application locally**:
+
+```
+npm run dev
+```
+
+The app should now be running at `http://localhost:5173`.
+
+---
+
+## 🔥 Firebase Setup
+
+To get the app working properly, you need to configure Firebase.
+
+1. **Go to** [https://console.firebase.google.com](https://console.firebase.google.com) and create a new project.
+
+2. **Register a new Web App** and get your Firebase config (`apiKey`, `authDomain`, etc.). Add these values to your `.env` file (you can see .env.example).
+
+3. **Enable Authentication Providers**:
+   - Go to **Authentication > Sign-in Method**
+   - Enable **Google** provider and configure project name and support email
+   - Enable **Anonymous** provider
+
+4. **Enable Realtime Database**:
+   - Go to **Realtime Database > Create Database**
+   - Choose test mode, or set these rules manually:
+
+```json
+{
+  "rules": {
+    ".read": "true",
+    ".write": "true"
+  }
+}
+```
+
+## 📁 Project Structure
+
+```
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── custom-hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── utils/
+│   ├── lib/
+│   ├── constants/
+│   └── App.tsx
+├── .env
+├── index.html
+├── tailwind.config.js
+└── vite.config.ts
+```
+
+---
+
+## 🌐 Deployed Version
+
+Check out the live version [here](https://trilhas-app-borderless-coding.vercel.app/)
+
+---
+
+
+## 📫 Contact
+
+Made with ❤️ by [Vandilson Brito](https://github.com/vandilsonbrito)
