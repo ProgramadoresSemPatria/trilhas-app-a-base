@@ -6,7 +6,6 @@ import { useAuth } from "../../context/AuthContext";
 import { CourseType, LearningPathType } from "../../utils/types";
 import { LearningPathCard } from "../../components/learning-path-card";
 import { useEffect, useState } from "react";
-import ProgresBar from "../../components/progres-bar";
 
 export default function Aulas() {
 
@@ -59,9 +58,13 @@ export default function Aulas() {
                         <CircleArrowLeft className="h-5 w-5 mr-2" />
                         Voltar
                     </Link>
-                    <ProgresBar progress={learningPathProgressPorcentage} />
                 </div>
-                <LearningPathCard learningPath={learningPath} classesTaken={classesTaken} setClassesTaken={setClassesTaken}/>
+                <LearningPathCard 
+                    learningPath={learningPath} 
+                    classesTaken={classesTaken} 
+                    setClassesTaken={setClassesTaken}
+                    progress={learningPathProgressPorcentage}
+                    />
             </main>
         </>
     )

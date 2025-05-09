@@ -1,14 +1,16 @@
 import { useState } from "react"
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react"
 import { LearningPathType } from "../../utils/types"
+import ProgresBar from "../progres-bar"
 
 type LearningPathCardProps = {
     learningPath: LearningPathType
     classesTaken: string[]
     setClassesTaken: (classesTaken: string[]) => void
+    progress: number
 }
 
-export function LearningPathCard({ learningPath, classesTaken, setClassesTaken }: LearningPathCardProps) {
+export function LearningPathCard({ learningPath, classesTaken, setClassesTaken, progress }: LearningPathCardProps) {
   const [expandedCourse, setExpandedCourse] = useState<number | null>(null)
   const [expandedModule, setExpandedModule] = useState<number | null>(null)
 
@@ -41,11 +43,13 @@ export function LearningPathCard({ learningPath, classesTaken, setClassesTaken }
 
   return (
     <div className="overflow-hidden rounded-xl shadow-lg mb-10">
-      <div className="py-6 pb-4">
-        <h1 className="mb-4 font-mono text-2xl font-bold uppercase tracking-wider text-white">
-          {learningPath.title}
-        </h1>
-        
+      <div className="py-6 pb-4 ">
+        <div className="flex items-center justify-between">
+            <h1 className="mb-4 font-mono text-2xl font-bold uppercase tracking-wider text-white">
+              {learningPath.title}
+            </h1>
+            <ProgresBar progress={progress}/>
+        </div>  
         <div className="h-[2px] w-full bg-gradient-to-r from-[#28d3a0] to-[#4F46E5]"></div>
       </div>
   
