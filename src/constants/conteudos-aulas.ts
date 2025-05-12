@@ -4436,7 +4436,7 @@ export const learningPathsData = [
               {
                 "classId": "be-node-222",
                 "title": "Configurar permissões no pipeline",
-                "link": "https://docs.google.com/document/d/1oCiEkzGqnBZAaRrBtv_X68JcnHjekLH1oQRnrqGniGY/edit?usp=drive_link"
+                "link": "https://borderlesscoding.notion.site/Configurar-permiss-es-no-pipeline-CI-CD-1eee3ad1da2880dd9c9aeb2be34520ef?pvs=143"
               },
               {
                 "classId": "be-node-160",
@@ -4446,7 +4446,7 @@ export const learningPathsData = [
               {
                 "classId": "be-node-223",
                 "title": "Assinar e validar artefatos de build",
-                "link": "https://docs.google.com/document/d/1GJfr4PwSMZyYXCrj0QvwDqHcE4kAAJi_O5oZfjUQ5hg/edit?usp=sharing"
+                "link": "https://borderlesscoding.notion.site/Assinar-e-validar-artefatos-de-build-1eee3ad1da2880d3933ddac0bf432ece?pvs=143"
               },
             ]
           },
@@ -4501,7 +4501,7 @@ export const learningPathsData = [
               {
                 "classId": "be-node-224",
                 "title": "Sempre usar queries parametrizadas ou ORMs",
-                "link": "https://docs.google.com/document/d/1-o9Y-HSFXpcSGgOZ315arxfvmrWfo46bb9AaW4HXR78/edit?usp=drive_link"
+                "link": "https://borderlesscoding.notion.site/Sempre-usar-queries-parametrizadas-1eee3ad1da28801abff5f3b7007a9c63?pvs=143"
               },
             ]
           },
@@ -4736,7 +4736,7 @@ export const learningPathsData = [
               {
                 "classId": "be-node-202",
                 "title": "Evitar Código Bloqueante (Ex: Evitar await dentro de loops em aplicações assíncronas ou Promise.all() para múltiplas chamadas simultâneas)",
-                "link": "https://docs.google.com/document/d/1biryPjApWiFtt8qLckfLHINWbIw6HrRarRGB36jj50I/edit?usp=drive_link"
+                "link": "https://borderlesscoding.notion.site/Evitar-c-digo-bloqueante-1eee3ad1da288091bf25ca2560082751?pvs=143"
               },
               {
                 "classId": "be-node-200",
@@ -5797,7 +5797,7 @@ export const learningPathsData = [
               {
                 "classId": "be-py-203",
                 "title": "Configurar permissões no pipeline",
-                "link": "https://docs.google.com/document/d/1oCiEkzGqnBZAaRrBtv_X68JcnHjekLH1oQRnrqGniGY/edit?usp=sharing"
+                "link": "https://borderlesscoding.notion.site/Configurar-permiss-es-no-pipeline-CI-CD-1eee3ad1da2880dd9c9aeb2be34520ef?pvs=143"
               },
               {
                 "classId": "be-py-141",
@@ -5807,7 +5807,7 @@ export const learningPathsData = [
               {
                 "classId": "be-py-204",
                 "title": "Assinar e validar artefatos de build",
-                "link": "https://docs.google.com/document/d/1GJfr4PwSMZyYXCrj0QvwDqHcE4kAAJi_O5oZfjUQ5hg/edit?usp=sharing"
+                "link": "https://borderlesscoding.notion.site/Assinar-e-validar-artefatos-de-build-1eee3ad1da2880d3933ddac0bf432ece?pvs=143"
               },
             ]
           }
@@ -5852,7 +5852,7 @@ export const learningPathsData = [
               {
                 "classId": "be-py-205",
                 "title": "Sempre usar queries parametrizadas ou ORMs",
-                "link": "https://docs.google.com/document/d/1-o9Y-HSFXpcSGgOZ315arxfvmrWfo46bb9AaW4HXR78/edit?usp=drive_link"
+                "link": "https://borderlesscoding.notion.site/Sempre-usar-queries-parametrizadas-1eee3ad1da28801abff5f3b7007a9c63?pvs=143"
               },
             ]
           },
@@ -6042,7 +6042,7 @@ export const learningPathsData = [
               {
                 "classId": "be-py-206",
                 "title": "Evitar Código Bloqueante (Ex: Evitar await dentro de loops em aplicações assíncronas ou Promise.all() para múltiplas chamadas simultâneas)",
-                "link": "https://docs.google.com/document/d/1biryPjApWiFtt8qLckfLHINWbIw6HrRarRGB36jj50I/edit?usp=drive_link"
+                "link": "https://borderlesscoding.notion.site/Evitar-c-digo-bloqueante-1eee3ad1da288091bf25ca2560082751?pvs=143"
               },
               {
                 "classId": "be-py-172",
