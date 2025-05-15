@@ -1,12 +1,13 @@
 import ErrorToast from '../../components/toasts/error-toast';
 import { auth } from '../../lib/firebase';
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { browserLocalPersistence, GoogleAuthProvider, setPersistence, signInWithPopup } from "firebase/auth";
 
 export default async function SignInWithGoogle() {
   let result = null,
       error = null;
   try {
     localStorage.setItem("userLoginMethod", "admin");
+    await setPersistence(auth, browserLocalPersistence);
     const provider = new GoogleAuthProvider();
     result = await signInWithPopup(auth, provider);
     if(result) { 

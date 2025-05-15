@@ -16,7 +16,7 @@ export default async function SignInWithEmail(email: string) {
     let resultUser = null,
         error = null
     try {
-
+       localStorage.setItem("userLoginMethod", "student");
        const dbRef = ref(getDatabase());
        const snapshot = await get(child(dbRef, 'students'));
        if(snapshot.exists()) {
