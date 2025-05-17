@@ -411,7 +411,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-62",
-                "title": "Tailwind CSS",
+                "title": "Tailwind CSS (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u"
               }
             ]
@@ -556,7 +556,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-79",
-                "title": "Aula",
+                "title": "Fetch API/Axios | Async/Await em requisições assíncronas",
                 "link": "https://www.youtube.com/watch?v=P1Mm-gTi5i8&list=PL3B-OV5dZTqbaLi1f2UmXEWbcx9WyYaTX&index=1"
               }
             ]
@@ -566,7 +566,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-80",
-                "title": "Aula",
+                "title": "Gerenciamento de estado global (Redux)",
                 "link": "https://www.youtube.com/watch?v=7YBTbYIGzAk&pp=ygUkZ2VyZW5jaWFtZW50byBkZSBlc3RhZG8gZ2xvYmFsIHJlZHV4"
               }
             ]
@@ -576,7 +576,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-81",
-                "title": "Aula",
+                "title": "Gerenciamento de estado global (Zustand)",
                 "link": "https://www.youtube.com/watch?v=nU662dfFfw4&pp=ygUjZ2VyZW5jaWFtZW50byBkZSBlc3RhZG8gcmVhY3QgcXVlcnk%3D"
               }
             ]
@@ -586,7 +586,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-82",
-                "title": "Aula",
+                "title": "Gerenciamento de estado global (React Query)",
                 "link": "https://www.youtube.com/watch?v=4JLPR8prndw&pp=ygUmY29tbyBnZXJlbmNpYXIgZXN0YWRvcyBjb20gcmVhY3QgcXVlcnnSBwkJfgkBhyohjO8%3D"
               }
             ]
@@ -596,7 +596,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-83",
-                "title": "Aula",
+                "title": "Tratamento de erros e exibição de mensagens ao usuário",
                 "link": "https://www.youtube.com/watch?v=vfwbOgpSvQA&pp=ygU2dHJhdGFtZW50byBkZSBlcnJvcyBlIGV4aWJpw6fDo28gZGUgbWVuc2FnZW5zIHJlYWN0IGpz0gcJCX4JAYcqIYzv"
               }
             ]
@@ -611,7 +611,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-js-fe-84",
-                "title": "Aula",
+                "title": "Curso completo TS",
                 "link": "https://www.youtube.com/watch?v=30LWjhZzg50"
               }
             ]
@@ -657,7 +657,7 @@ export const learningPathsData = [
               {
                 "classId": "fs-js-fe-89",
                 "title": "Aula (sintaxe, funções e módulos, manipulação de listas, dicionários e conjuntos, POO no Python)",
-                "link": "https://www.youtube.com/watch?v=placeholder"
+                "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
               },
               {
                 "classId": "fs-js-fe-90",
@@ -681,17 +681,17 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-js-fe-93",
-                "title": "Trabalhar com DB - PostgreSQL/MySQL",
+                "title": "Trabalhar com DB - PostgreSQL/MySQL (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=pDBnCDuL-dc&list=PLucm8g_ezqNp7ECP-fidzdgeVDufBTYDV"
               },
               {
                 "classId": "fs-js-fe-94",
-                "title": "SQLAlchemy Lib",
+                "title": "SQLAlchemy Lib (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
                 "classId": "fs-js-fe-95",
-                "title": "MongoDB",
+                "title": "MongoDB (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
               },
               {
@@ -1468,7 +1468,7 @@ export const learningPathsData = [
               {
                 "classId": "fs-js-be-6",
                 "title": "Aula (sintaxe, funções e módulos, manipulação de listas, dicionários e conjuntos, POO no Python)",
-                "link": "https://www.youtube.com/watch?v=placeholder"
+                "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
               },
               {
                 "classId": "fs-js-be-7",
@@ -1492,17 +1492,17 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-js-be-10",
-                "title": "Trabalhar com DB - PostgreSQL/MySQL",
+                "title": "Trabalhar com DB - PostgreSQL/MySQL (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=pDBnCDuL-dc&list=PLucm8g_ezqNp7ECP-fidzdgeVDufBTYDV"
               },
               {
                 "classId": "fs-js-be-11",
-                "title": "SQLAlchemy Lib",
+                "title": "SQLAlchemy Lib (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
                 "classId": "fs-js-be-12",
-                "title": "MongoDB",
+                "title": "MongoDB (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
               },
               {
@@ -2384,86 +2384,6 @@ export const learningPathsData = [
           }
         ]
       },
-      {
-        "title": "Security Best Practices",
-        "modules": [
-          {
-            "title": "Princípios Básicos de Segurança",
-            "classes": [
-              {
-                "classId": "fs-js-be-161",
-                "title": "Confidencialidade/Integridade/Disponibilidade",
-                "link": "https://www.youtube.com/watch?v=T3CkJMZCrL8"
-              }
-            ]
-          },
-          {
-            "title": "Segurança no Frontend",
-            "classes": [
-              {
-                "classId": "fs-js-be-162",
-                "title": "Proteção de Dados Sensíveis",
-                "link": "http://www.youtube.com/watch?v=R3ZcbbPmw-c"
-              },
-              {
-                "classId": "fs-js-be-163",
-                "title": "Aonde armazenar os tokens",
-                "link": "https://www.youtube.com/watch?v=D-JNwvmaAmE&t=346s&pp=ygUhYW9uZGUgYXJtYXplbmFyIHRva2VucyBzZW5zw612ZWlz"
-              },
-              {
-                "classId": "fs-js-be-164",
-                "title": "Configurar CORS corretamente",
-                "link": "https://www.youtube.com/watch?v=zDqwbiCyur8"
-              },
-              {
-                "classId": "fs-js-be-165",
-                "title": "Cookies",
-                "link": "http://www.youtube.com/watch?v=T3hdVsf4V1c"
-              }
-            ]
-          },
-          {
-            "title": "Segurança em APIs e Backend",
-            "classes": [
-              {
-                "classId": "fs-js-be-166",
-                "title": "Autenticação e Autorização (RBAC)",
-                "link": "https://www.youtube.com/watch?v=jI4K7L-LI58"
-              },
-              {
-                "classId": "fs-js-be-167",
-                "title": "Armazenamento Seguro de Senhas (bcrypt/Argon2)",
-                "link": "http://www.youtube.com/watch?v=eFERQi2-eus"
-              }
-            ]
-          },
-          {
-            "title": "Segurança na Infra e Deploy",
-            "classes": [
-              {
-                "classId": "fs-js-be-168",
-                "title": "Variáveis de Ambiente",
-                "link": "https://www.youtube.com/watch?v=k2rzuTYZInU"
-              },
-              {
-                "classId": "fs-js-be-169",
-                "title": "Não expor chaves de API, senhas ou segredos no código fonte",
-                "link": "http://www.youtube.com/watch?v=fcdH0r9rLLo"
-              },
-              {
-                "classId": "fs-js-be-170",
-                "title": "HTTPS e Certificados SSL",
-                "link": "https://www.youtube.com/watch?v=IUQ8ttXm7w4"
-              },
-              {
-                "classId": "fs-js-be-171",
-                "title": "Atualização e Monitoramento (OWASP/Snyk)",
-                "link": "https://www.youtube.com/watch?v=GJADjlBbv3Y"
-              }
-            ]
-          }
-        ]
-      }
     ]
   },
   {
@@ -2509,7 +2429,7 @@ export const learningPathsData = [
               {
                 "classId": "fs-js-be-6",
                 "title": "Aula (sintaxe, funções e módulos, manipulação de listas, dicionários e conjuntos, POO no Python)",
-                "link": "https://www.youtube.com/watch?v=placeholder"
+                "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
               },
               {
                 "classId": "fs-js-be-7",
@@ -2533,17 +2453,17 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-js-be-10",
-                "title": "Trabalhar com DB - PostgreSQL/MySQL",
+                "title": "Trabalhar com DB - PostgreSQL/MySQL (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=pDBnCDuL-dc&list=PLucm8g_ezqNp7ECP-fidzdgeVDufBTYDV"
               },
               {
                 "classId": "fs-js-be-11",
-                "title": "SQLAlchemy Lib",
+                "title": "SQLAlchemy Lib (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
                 "classId": "fs-js-be-12",
-                "title": "MongoDB",
+                "title": "MongoDB (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
               },
               {
@@ -2583,7 +2503,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-py-18",
-                "title": "MVC",
+                "title": "MVC (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=abqeIMr1hsg&list=PLAgbpJQADBGKvsjOu4gHU5E9WUQs8XRgS"
               },
               {
@@ -2643,7 +2563,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-py-28",
-                "title": "MongoDB e bancos NoSQL para aplicações escaláveis",
+                "title": "MongoDB e bancos NoSQL para aplicações escaláveis (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=xwgXJDYlnTE&list=PLrOQsSoS-V6_JFyIxlKJDaYMTvaY64aTU"
               },
               {
@@ -2658,7 +2578,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-py-31",
-                "title": "Uso de ORMs como Django ORM",
+                "title": "Uso de ORMs como Django ORM  (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=SIyxjRJ8VNY&list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau"
               }
             ]
@@ -2713,7 +2633,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-py-39",
-                "title": "Redis para caching e fila de tarefas",
+                "title": "Redis para caching e fila de tarefas (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=5iVUNGgOuYw&list=PLAgbpJQADBGL5sHYTGurgjfhSvvaGFHmt"
               },
               {
@@ -2863,7 +2783,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-py-63",
-                "title": "Testes automatizados (Pytest)",
+                "title": "Testes Postamn, Insomnia e Python",
                 "link": "https://www.youtube.com/watch?v=02W0kNO-Uvo"
               },
               {
@@ -2963,7 +2883,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "fs-py-76",
-                "title": "MVC",
+                "title": "MVC (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=abqeIMr1hsg&list=PLAgbpJQADBGKvsjOu4gHU5E9WUQs8XRgS"
               },
               {
@@ -3083,12 +3003,12 @@ export const learningPathsData = [
               },
               {
                 "classId": "fs-py-94",
-                "title": "Processamento assíncrono",
+                "title": "Processamento assíncrono (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=NoJLNfrgRXA&list=PLAgbpJQADBGJserIipQ04-bZjRrqjvJmV"
               },
               {
                 "classId": "fs-py-95",
-                "title": "Filas de mensagem",
+                "title": "Filas de mensagem (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=6PHr1NwlQaU&list=PLAgbpJQADBGLW5Q_OE86RzRb8HDvDzs-m"
               }
             ]
@@ -3708,7 +3628,7 @@ export const learningPathsData = [
         ]
       },
       {
-        "title": "Node.js Avançado",
+        "title": "Criar API",
         "modules": [
           {
             "title": "Tipos de API",
@@ -3885,101 +3805,6 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-node-80",
-                "title": "Testes automatizados (Jest/Supertest)",
-                "link": "http://www.youtube.com/watch?v=L9rHlPtNi3g"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "SQL Avançado",
-        "modules": [
-          {
-            "title": "Consultas Avançadas",
-            "classes": [
-              {
-                "classId": "be-node-81",
-                "title": "RESTful",
-                "link": "http://www.youtube.com/watch?v=ycIxWTEI908"
-              },
-              {
-                "classId": "be-node-82",
-                "title": "GraphQL",
-                "link": "https://www.youtube.com/watch?v=0MfMYPvimYo"
-              },
-              {
-                "classId": "be-node-83",
-                "title": "gRPC",
-                "link": "https://www.youtube.com/watch?v=F4t3ZBVMlvo"
-              },
-              {
-                "classId": "be-node-84",
-                "title": "Mensageria",
-                "link": "https://www.youtube.com/watch?v=qOqXz5Qv_-8"
-              }
-            ]
-          },
-          {
-            "title": "Consumir APIs Externas no Back End",
-            "classes": [
-              {
-                "classId": "be-node-85",
-                "title": "Bibliotecas HTTP (axios, fetch)",
-                "link": "https://www.youtube.com/watch?v=e9w8GIV0Yq4&pp=ygUgY2hhbWFkYXMgSFRUUCBjb20gZmV0Y2ggb3UgYXhpb3M%3D"
-              },
-              {
-                "classId": "be-node-86",
-                "title": "Tratar erros e timeouts corretamente",
-                "link": "https://www.youtube.com/watch?v=RwWr6vnkHJs&pp=ygUjY29tbyB0cmF0YXIgZXJyb3MgZSB0aW1lb3V0cyBub2RlanPSBwkJvwCDtaTen9Q%3D"
-              },
-              {
-                "classId": "be-node-87",
-                "title": "Lidar com autenticação via tokens ou API Keys",
-                "link": "https://www.youtube.com/watch?v=4KHiSt0oLJ0"
-              }
-            ]
-          },
-          {
-            "title": "Boas Práticas em Integrações de APIs",
-            "classes": [
-              {
-                "classId": "be-node-88",
-                "title": "JWT",
-                "link": "https://www.youtube.com/watch?v=XYjOteYbCMo"
-              },
-              {
-                "classId": "be-node-89",
-                "title": "Proteja endpoints com API Keys e OAUTH",
-                "link": "https://www.youtube.com/watch?v=X4mtsWfhNzw"
-              },
-              {
-                "classId": "be-node-90",
-                "title": "Rate Limiting para evitar ataques DDoS",
-                "link": "http://www.youtube.com/watch?v=ryXn73SV6xw"
-              },
-              {
-                "classId": "be-node-91",
-                "title": "Cache de Respostas para melhorar performance",
-                "link": "https://www.youtube.com/watch?v=NSPZxBC7G4o&pp=ygUZY2FjaGUgZGUgcmVzcG9zdGFzIG5vZGVqcw%3D%3D"
-              }
-            ]
-          },
-          {
-            "title": "Documentação e Testes de APIs",
-            "classes": [
-              {
-                "classId": "be-node-92",
-                "title": "Documentação (Swagger/OpenAPI)",
-                "link": "https://www.youtube.com/watch?v=4AdvGglL0wY"
-              },
-              {
-                "classId": "be-node-93",
-                "title": "Testes (Postman/Insomnia)",
-                "link": "https://www.youtube.com/watch?v=02W0kNO-Uvo"
-              },
-              {
-                "classId": "be-node-94",
                 "title": "Testes automatizados (Jest/Supertest)",
                 "link": "http://www.youtube.com/watch?v=L9rHlPtNi3g"
               }
@@ -5116,12 +4941,12 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-py-38",
-                "title": "Ótimo conhecimento em BD (SQLAlchemy)",
+                "title": "Ótimo conhecimento em BD (SQLAlchemy) - (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
                 "classId": "be-py-39",
-                "title": "Ótimo conhecimento em DB (Django ORM)",
+                "title": "Ótimo conhecimento em DB (Django ORM) (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=SIyxjRJ8VNY&list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau"
               },
               {
@@ -5131,7 +4956,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-py-41",
-                "title": "Boas práticas de código (SOLID, Design Patterns)",
+                "title": "Boas práticas de código (SOLID, Design Patterns) - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=MdTs8Kpy0ps&list=PLAgbpJQADBGJO32XIkbapOSKfHFjM4H9c"
               },
               {
@@ -5176,7 +5001,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-py-50",
-                "title": "Filas e mensagens (Celery, RabbitMQ, Kafka)",
+                "title": "Filas e mensagens (Celery, RabbitMQ, Kafka) - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=6PHr1NwlQaU&list=PLAgbpJQADBGLW5Q_OE86RzRb8HDvDzs-m"
               }
             ]
@@ -5191,7 +5016,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-py-52",
-                "title": "FastAPI assíncrono - async/await",
+                "title": "FastAPI assíncrono - async/await - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=NoJLNfrgRXA&list=PLAgbpJQADBGJserIipQ04-bZjRrqjvJmV"
               }
             ]
@@ -5331,8 +5156,8 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-py-71",
-                "title": "https://www.youtube.com/watch?v=CJjSOzb0IYs&pp=ugMICgJwdBABGAHKBSBwcm90ZcOnw6NvIGFwaSBrZXlzIG91YXRoIHB5dGhvbg%3D%3D",
-                "link": "https://www.youtube.com/watch?v=placeholder"
+                "title": "Proteja endpoints com API Keys e OAUTH",
+                "link": "https://www.youtube.com/watch?v=CJjSOzb0IYs&pp=ugMICgJwdBABGAHKBSBwcm90ZcOnw6NvIGFwaSBrZXlzIG91YXRoIHB5dGhvbg%3D%3D"
               },
               {
                 "classId": "be-py-72",
@@ -5506,7 +5331,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "be-py-97",
-                "title": "Ferramenta: PyTest (Python)",
+                "title": "Ferramenta: PyTest (Python) - (Assitir playlist)",
                 "link": "https://www.youtube.com/watch?v=H2jDPK3HVzw&t=3s&pp=ygUcdGVzdGUgZGUgaW50ZWdyYcOnw6NvIHB5dGhvbg%3D%3D"
               },
               {
@@ -6267,7 +6092,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-sci-5",
-                "title": "SQLAlchemy Lib",
+                "title": "SQLAlchemy Lib (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
@@ -6437,12 +6262,12 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "d-sci-27",
-                "title": "Aprendizado Supervisionado",
+                "title": "Aprendizado Supervisionado (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=SJa7zBSeE1U"
               },
               {
                 "classId": "d-sci-28",
-                "title": "Não Supervisionado",
+                "title": "Não Supervisionado (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=YS5mCodsKs0"
               },
               {
@@ -6473,7 +6298,7 @@ export const learningPathsData = [
               {
                 "classId": "d-sci-32",
                 "title": "Big Data",
-                "link": "https://www.youtube.com/watch?v=placeholderhttp://www.youtube.com/watch?v=JPC5mE9iI0I"
+                "link": "http://www.youtube.com/watch?v=JPC5mE9iI0I"
               },
               {
                 "classId": "d-sci-33",
@@ -6482,7 +6307,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-sci-34",
-                "title": "Pipeline de Dados",
+                "title": "Pipeline de Dados (Assistir playlist)",
                 "link": "http://www.youtube.com/watch?v=XVRuTS0Y4uI"
               }
             ]
@@ -6548,7 +6373,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-eng-5",
-                "title": "SQLAlchemy Lib",
+                "title": "SQLAlchemy Lib (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
@@ -6603,7 +6428,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-eng-14",
-                "title": "sqlalchemy",
+                "title": "sqlalchemy (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=9Y35hfZJrGc"
               }
             ]
@@ -6623,7 +6448,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-eng-16",
-                "title": "joins",
+                "title": "joins (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=4nbECYDlAwc"
               }
             ]
@@ -6693,7 +6518,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "d-eng-26",
-                "title": "Aula",
+                "title": "Traditional Database x Modern Data Warehouses",
                 "link": "https://www.youtube.com/watch?v=-bSkREem8dM"
               }
             ]
@@ -6703,7 +6528,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "d-eng-27",
-                "title": "PostgreSQL/MySQL/SQL Server (Criar/Gerenciar tabelas)",
+                "title": "PostgreSQL/MySQL/SQL Server (Criar/Gerenciar tabelas) - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=skE781wfnmQ&list=PLucm8g_ezqNpe5zCBEAFm-UmQY8vWfAIy&index=4"
               },
               {
@@ -6743,7 +6568,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "d-eng-34",
-                "title": "MongoDB",
+                "title": "MongoDB (Assistir playlist)",
                 "link": "http://www.youtube.com/watch?v=04gyv76r_Ts"
               },
               {
@@ -6778,7 +6603,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "d-eng-39",
-                "title": "Aula",
+                "title": "ETL vs ELT",
                 "link": "https://www.youtube.com/watch?v=_Nk0v9qUWk4"
               }
             ]
@@ -6843,7 +6668,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-eng-48",
-                "title": "Snowflake",
+                "title": "Snowflake (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=-IHbWaxTkyA&list=PLc2EZr8W2QIBqETApuLNGGB8X_WL47AKb"
               },
               {
@@ -6858,7 +6683,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "d-eng-51",
-                "title": "Big Query (GCP)",
+                "title": "Big Query (GCP) - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=nQ7V7FUABwQ&list=PLFz7Ouda3Gw0Sui_PBIQtFPgYeat_LKzR"
               },
               {
@@ -6948,7 +6773,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "d-eng-62",
-                "title": "Databricks - DLT (Delta Lives Tables)",
+                "title": "Databricks - DLT (Delta Lives Tables) - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=4Pmtp9kzOX0&list=PLabecQZ9uN2oi9vWpJIj_lRRAJnPIrt3i"
               },
               {
@@ -7029,7 +6854,7 @@ export const learningPathsData = [
               },
               {
                 "classId": "ai-5",
-                "title": "SQLAlchemy Lib",
+                "title": "SQLAlchemy Lib (Assistir playlist)",
                 "link": "http://youtube.com/watch?v=to39SFUxOpg&list=PLAgbpJQADBGKbwhOvd9DVWy-xhA1KEGm1"
               },
               {
@@ -7064,12 +6889,12 @@ export const learningPathsData = [
               },
               {
                 "classId": "ai-10",
-                "title": "pandas - Manipulação de Dados",
+                "title": "pandas - Manipulação de Dados (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=hD0uJln4S2Y&list=PL3ZslI15yo2pfkf7EGNR14xTwe-wZ2bNX"
               },
               {
                 "classId": "ai-11",
-                "title": "matplotlib - Visualização de Dados",
+                "title": "matplotlib - Visualização de Dados (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=QLACZgfUAhY&list=PL5jigOsyxDtBEgO2zUUyf_2LNt3Zenrl6"
               },
               {
@@ -7109,7 +6934,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "ai-16",
-                "title": "Derivadas e gradientes (Básico)",
+                "title": "Derivadas e gradientes (Básico) - (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=l84cmUOtwnQ&list=PLD0TwJrn6boM6Qcmr1Qr1vcrn2ykhNW2M"
               }
             ]
@@ -7255,7 +7080,7 @@ export const learningPathsData = [
               {
                 "classId": "ai-40",
                 "title": "RMSE",
-                "link": "https://www.youtube.com/watch?v=UlJsIafykzQ&pp=ygUdbcOpdHJpY2FzIGRlIGF2YWxpYcOnw6NvIHJtc2U%3D"
+                "link": "https://www.youtube.com/watch?v=ELN-V6Gnjs4"
               },
               {
                 "classId": "ai-41",
@@ -7325,7 +7150,7 @@ export const learningPathsData = [
               {
                 "classId": "ai-51",
                 "title": "Funções de ativação (Tanh)",
-                "link": "https://www.youtube.com/watch?v=9vB5nzrL4hY&pp=ygUcZnVuw6fDtWVzIGRlIGF0aXZhw6fDo28gdGFuaNIHCQl-CQGHKiGM7w%3D%3D"
+                "link": "https://www.youtube.com/watch?v=I_IVYmQBRmE&pp=ygUcZnVuw6fDtWVzIGRlIGF0aXZhw6fDo28gdGFuaA%3D%3D"
               },
               {
                 "classId": "ai-52",
@@ -7364,7 +7189,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "ai-58",
-                "title": "Redes Neurais Artificiais (MLP) - Modelos básicos de Deep Learning",
+                "title": "Redes Neurais Artificiais (MLP) - Modelos básicos de Deep Learning (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=ebToEXQFCo4&list=PLQH6T1jnIb5J7vugBAauJsFU8Qgvuf-4X"
               },
               {
@@ -7424,7 +7249,7 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "ai-69",
-                "title": "PyTorch",
+                "title": "PyTorch (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=kY14KfZQ1TI&list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1"
               }
             ]
@@ -7544,12 +7369,12 @@ export const learningPathsData = [
             "classes": [
               {
                 "classId": "ai-85",
-                "title": "PostgreSQL, MySQL - Estruturado",
+                "title": "PostgreSQL, MySQL - Estruturado (Assistir playlist",
                 "link": "https://www.youtube.com/watch?v=RHMC2LFJaYY&list=PLucm8g_ezqNoAkYKXN_zWupyH6hQCAwxY&index=4"
               },
               {
                 "classId": "ai-86",
-                "title": "MongoDB, Redis - Não Estruturado",
+                "title": "MongoDB, Redis - Não Estruturado (Assistir playlist)",
                 "link": "https://www.youtube.com/watch?v=JPLHZAvx3Mw&list=PLAgbpJQADBGLk7QlD_rzH9vqbt3TrwL-k"
               }
             ]
