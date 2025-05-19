@@ -1,33 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import SignIn from "./pages/sign-in"
+import Painel from "./pages/painel"
+import AuthGuard from "./components/auth-guard"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
+import { Toaster } from 'sonner';
+import AdminGuard from "./components/admin-guard"
+import TrilhasDesenvolvedor from "./pages/trilhas-desenvolvedor"
+import TrilhasDados from "./pages/trilhas-dados"
+import Aulas from "./pages/aulas"
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const queryClient = new QueryClient();
 
   return (
-    <>
-      <div className='bg-amber-50'>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <QueryClientProvider client={queryClient}>
+      <Toaster position="bottom-right" />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SignIn />} />
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route element={<AuthGuard />}>
+          <Route element={<AdminGuard />}>
+            <Route path="/painel" element={<Painel />} />
+          </Route>
+          <Route path="/trilhas-desenvolvedor" element={<TrilhasDesenvolvedor />} />
+          <Route path="/trilhas-dados" element={<TrilhasDados />} />
+          <Route path="/trilhas-desenvolvedor/:slug" element={<Aulas />} />
+          <Route path="/trilhas-dados/:slug" element={<Aulas />} />
+        </Route>
+      </Routes>
+      </BrowserRouter>
+    </QueryClientProvider>
   )
 }
 
